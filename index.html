@@ -15,7 +15,6 @@ body {
 
 .header {
   background-color: #f1f1f1;
-  padding: 30px;
   text-align: center;
 }
 
@@ -56,15 +55,20 @@ div.scrollmenu #home {
 .sticky + .content {
   padding-top: 60px;
 }
+
 </style>
 </head>
 <body>
 
 <div class="header">
-  <p style="font-size: 200%">SSN Model United Nations</p>
-  <p style="font-size: 120%">Diplomacy . Deliberation . Discussion .</p>
+  <p>
+  <img style="width: 100%;height:100%;" src="poster.jpg"></p>
+  <br><br>
+  <p>16th, 17th, and 18th of September 2018</p>
+  <br>
+  <img src="down.jpg" style="width: 50px; height: 50px;">
 </div>
-
+<br>
 <div class="scrollmenu" id="navbar">
   <div class="col-lg-1" id="home">Home</div>
   <div class="col-lg-2" style="color:#000000;" id="comm">Committees</div>
@@ -86,7 +90,6 @@ window.onscroll = function() {myFunction();};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
-
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
@@ -94,6 +97,7 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
 </script>
 
 
