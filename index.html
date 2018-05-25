@@ -2,6 +2,10 @@
 <html>
 <head>
 <title>SSN MUN 2018</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
@@ -15,29 +19,28 @@ body {
   text-align: center;
 }
 
-#navbar {
-  overflow: hidden;
-  background-color: #333;
+div.scrollmenu {
+    background-color: #ced6e2;
+    overflow: auto;
+    white-space: nowrap;
 }
 
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+div.scrollmenu div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
 
-#navbar a:hover {
-  background-color: #ddd;
+div.scrollmenu div:hover {
+    background-color: #778;
+    cursor: pointer;
+}
+
+div.scrollmenu #home {
+  background-color: #777;
   color: black;
-}
-
-#navbar a.active {
-  background-color: #4CAF50;
-  color: white;
 }
 
 .content {
@@ -58,25 +61,28 @@ body {
 <body>
 
 <div class="header">
-  <h2>SSN Model United Nations</h2>
-  <p>Diplomacy . Deliberation . Discussion</p>
+  <p style="font-size: 200%">SSN Model United Nations</p>
+  <p style="font-size: 120%">Diplomacy . Deliberation . Discussion .</p>
 </div>
 
-<div id="navbar">
-  <a class="active" href="javascript:void(0)">Home</a>
-  <a href="javascript:void(0)">Committees</a>
-  <a href="javascript:void(0)">International Press</a>
-  <a href="javascript:void(0)">Applications</a>
-  <a href="javascript:void(0)">The Secretariat</a>
-  <a href="javascript:void(0)">Sponsors</a>
-  <a href="javascript:void(0)">Contact Us</a>
+<div class="scrollmenu" id="navbar">
+  <div class="col-lg-1" id="home">Home</div>
+  <div class="col-lg-2" style="color:#000000;" id="comm">Committees</div>
+  <div class="col-lg-2" style="color:#000000;" id="ip">International Press</div>
+  <div class="col-lg-2" style="color:#000000;" id="apps">Applications</div>
+  <div class="col-lg-2" style="color:#000000;" id="sec">The Secretariat</div>
+  <div class="col-lg-1" style="color:#000000;" id="spons">Sponsors</div>
+  <div class="col-lg-2" style="color:#000000;" id="contact">Contact Us</div>
 </div>
 
 <div class="content">
+HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>
 </div>
 
+<script src="app.js"></script>
+
 <script>
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {myFunction();};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
@@ -89,6 +95,7 @@ function myFunction() {
   }
 }
 </script>
+
 
 </body>
 </html>
