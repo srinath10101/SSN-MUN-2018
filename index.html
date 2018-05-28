@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SSN MUN 2018</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+div.scrollmenu {
+    background-color: #ced6e2;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu div:hover {
+    background-color: #778;
+    cursor: pointer;
+}
+
+div.scrollmenu #home {
+  background-color: #777;
+  color: black;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <p>
+  <img style="width: 100%;height:100%;" src="poster.jpg"></p>
+  <br><br>
+  <p>16th, 17th, and 18th of September 2018</p>
+  <br>
+  <img src="down.jpg" style="width: 50px; height: 50px;">
+</div>
+<br>
+<div class="scrollmenu" id="navbar">
+  <div class="col-lg-1" id="home">Home</div>
+  <div class="col-lg-2" style="color:#000000;" id="comm">Committees</div>
+  <div class="col-lg-2" style="color:#000000;" id="ip">International Press</div>
+  <div class="col-lg-2" style="color:#000000;" id="apps">Applications</div>
+  <div class="col-lg-2" style="color:#000000;" id="sec">The Secretariat</div>
+  <div class="col-lg-1" style="color:#000000;" id="spons">Sponsors</div>
+  <div class="col-lg-2" style="color:#000000;" id="contact">Contact Us</div>
+</div>
+
+<div class="content">
+HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>HELLO WORLD<br>
+</div>
+
+<script src="app.js"></script>
+
+<script>
+window.onscroll = function() {myFunction();};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+</script>
+
+
+</body>
+</html>
