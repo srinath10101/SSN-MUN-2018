@@ -1,16 +1,23 @@
-import React, { Component } from 'react';
-import { AppRegistry, Image } from 'react-native';
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 
-export default class Bananas extends Component {
+export default class App extends React.Component {
   render() {
-    let pic = {
-      uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
-    };
     return (
-      <Image source={pic} style={{width: 360, height: 260}}/>
+      <View style={styles.container}>
+        <Text>Open up App.js to start working on your app!</Text>
+        <Text>Changes you make will automatically reload.</Text>
+        <Text>Shake your phone to open the developer menu.</Text>
+      </View>
     );
   }
 }
 
-// skip this line if using Create React Native App
-//AppRegistry.registerComponent('AwesomeProject', () => Bananas);
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
