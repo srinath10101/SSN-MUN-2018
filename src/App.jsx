@@ -7,6 +7,9 @@ import News from './components/News';
 import Ip from './components/Ip';
 import Sec from './components/Sec';
 import Navbar from './components/CustomNavbar';
+import Applications from "./components/Applications";
+import Sponsors from "./components/Sponsors";
+import ContactUs from './components/ContactUs';
 
 class App extends Component {
   render() {
@@ -19,6 +22,9 @@ class App extends Component {
           <Route path="/news" component={News} />
           <Route path="/ip" component={Ip} />
           <Route path="/sec" component={Sec} />
+          <Route path="/applications" component={Applications} />
+          <Route path="/Sponsors" component={Sponsors} />
+          <Route path="/ContactUs" component={ContactUs} />
         </div>
       </Router>
     );

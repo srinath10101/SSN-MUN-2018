@@ -6,7 +6,7 @@ import RevealP from 'react-reveal';
 import './Sec.css';
 
 
-export default class Home extends Component {
+export default class Sec extends Component {
   render() {
         return (
             <Grid id="whole">

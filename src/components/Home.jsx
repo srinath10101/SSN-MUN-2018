@@ -3,9 +3,7 @@ import { Image } from 'react-bootstrap';
 import {View} from 'react-native';
 import WhenInView from './WhenInView/WhenInView';
 import RevealP from 'react-reveal';
-import {HashRouter} from 'react-router-dom';
 import './Home.css';
-
 
 
 export default class Home extends Component {

@@ -1,11 +1,11 @@
 import React, { Component } from 'react' 
 import { Image, Grid ,Row} from 'react-bootstrap';
 import {ScrollView, View, Text} from 'react-native';
-import './Ip.css';
+import './Applications.css';
 import WhenInView from './WhenInView/WhenInView';
 import RevealP from 'react-reveal';
 
-export default class Ip extends Component {
+export default class Applications extends Component {
     render() {
       return (
         <View id="contai">
@@ -16,8 +16,8 @@ export default class Ip extends Component {
             { ( isInView ) => 
             
             <RevealP hide={!isInView}>
-            <div id="content"><p id="head"><h2>The International Press:</h2>
-            An institution entrusted with the documentation of the happenings of a United Nations’ conference, is responsible for keeping its readers apprised on the matters being discussed in various committees. The institution involves itself with the release of jargon-free, comprehensible information and works to reinforce the ideologies of diplomacy and democracy. Keeping the ethics of journalism in mind and upholding the principle of transparency at all times, the International Press can be rightly regarded as the watchdog for qualitative deliberation.    <br></br>
+            <div id="content"><p id="head"><h2>Applications:</h2>
+            Please wait for the Applications to be released!<br></br>
             </p>
             </div>
             </RevealP>

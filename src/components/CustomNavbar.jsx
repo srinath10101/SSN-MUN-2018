@@ -17,22 +17,22 @@ export default class CustomNavbar extends Component {
             <NavItem eventKey={1} componentClass={Link} href="/" to="/">
               Home
             </NavItem>
-            <NavItem eventKey={2} componentClass={Link} href="/committees" to="/committees">
+            <NavItem eventKey={2} componentClass={Link} href="/Committees" to="/Committees">
               Committees
             </NavItem>
-            <NavItem eventKey={3} componentClass={Link} href="/ip" to="/ip">
+            <NavItem eventKey={3} componentClass={Link} href="/Ip" to="/Ip">
               International Press
             </NavItem>
-            <NavItem eventKey={4} componentClass={Link} href="/" to="/">
+            <NavItem eventKey={4} componentClass={Link} href="/Applications" to="/Applications">
               Applications
             </NavItem>
-            <NavItem eventKey={5} componentClass={Link} href="/sec" to="/sec">
+            <NavItem eventKey={5} componentClass={Link} href="/Sec" to="/Sec">
               The Secretariat
             </NavItem>
-            <NavItem eventKey={6} componentClass={Link} href="/" to="/">
+            <NavItem eventKey={6} componentClass={Link} href="/Sponsors" to="/Sponsors">
               Sponsors
             </NavItem>
-            <NavItem eventKey={7} componentClass={Link} href="/" to="/">
+            <NavItem eventKey={7} componentClass={Link} href="/ContactUs" to="/ContactUs">
               Contact Us
             </NavItem>
           </Nav>
