@@ -19,6 +19,7 @@ export default class Ip extends Component {
             { ( isInView ) => 
             
             <RevealP hide={!isInView}>
+            <Image src="images/IP.jpg" className="IP-image" />
             <div id="content"><p id="head"><h2>The International Press:</h2>
             An institution entrusted with the documentation of the happenings of a United Nations’ conference, is responsible for keeping its readers apprised on the matters being discussed in various committees. The institution involves itself with the release of jargon-free, comprehensible information and works to reinforce the ideologies of diplomacy and democracy. Keeping the ethics of journalism in mind and upholding the principle of transparency at all times, the International Press can be rightly regarded as the watchdog for qualitative deliberation.    <br></br>
             </p>
