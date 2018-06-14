@@ -5,13 +5,13 @@ import RevealP from 'react-reveal';
 import './ContactUs.css';
 import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
-
-
+import ScrollUpButton from 'react-scroll-up-button';
 
 export default class ContactUs extends Component {
   render() {
         return (
             <Grid id="whole">
+            <ScrollUpButton />
             <Jumbotron>
             <Image src="images/logo.jpg" className="header-image" />
                 </Jumbotron>

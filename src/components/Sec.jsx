@@ -4,9 +4,9 @@ import {View} from 'react-native';
 import WhenInView from './WhenInView/WhenInView';
 import RevealP from 'react-reveal';
 import './Sec.css';
+import ScrollUpButton from 'react-scroll-up-button';
 
-
-export default class Sec extends Component {
+class Sec extends Component {
   render() {
         return (
             <Grid id="whole">
@@ -58,7 +58,10 @@ export default class Sec extends Component {
                     }
                 </WhenInView>
                 <br></br><br></br><br></br> 
+                <ScrollUpButton />
             </Grid>
         )
     }
 }
+
+export default Sec;

@@ -4,12 +4,14 @@ import {View} from 'react-native';
 import WhenInView from './WhenInView/WhenInView';
 import RevealP from 'react-reveal';
 import './Home.css';
+import ScrollUpButton from 'react-scroll-up-button';
 
 
 export default class Home extends Component {
   render() {
     return (
       <View id="contai">
+      <ScrollUpButton />
         <Image src="images/logo.jpg" className="header-image" />
         <div><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br> </div>
         
