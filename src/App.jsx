@@ -8,8 +8,10 @@ import Ip from './components/Ip';
 import Sec from './components/Sec';
 import Navbar from './components/CustomNavbar';
 import Applications from "./components/Applications";
+import Payment from "./components/Payment";
 import Sponsors from "./components/Sponsors";
 import ContactUs from './components/ContactUs';
+import {Image} from 'react-bootstrap';
 
 class App extends Component {
   render() {
@@ -23,8 +25,9 @@ class App extends Component {
           <Route path="/ip" component={Ip} />
           <Route path="/sec" component={Sec} />
           <Route path="/applications" component={Applications} />
-          <Route path="/Sponsors" component={Sponsors} />
-          <Route path="/ContactUs" component={ContactUs} />
+          <Route path="/Payment" component={Payment} />
+          <Route path="/sponsors" component={Sponsors} />
+          <Route path="/contactus" component={ContactUs} />
         </div>
       </Router>
     );

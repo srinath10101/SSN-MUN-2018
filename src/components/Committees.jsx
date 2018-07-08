@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {View, ImageBackground} from 'react-native';
 import { Image,Grid } from 'react-bootstrap';
 import './Committees.css';
 import ScrollUpButton from 'react-scroll-up-button';
@@ -9,7 +10,11 @@ export default class committees extends Component {
     render(){
         return (
             <div>
-                <Image src="images/logo.jpg" className="header-image" />
+                <ImageBackground id="idkwhy2"
+        resizeMode = "repeat"
+        source={{uri: 'images/backmap.jpg'}}
+        style={{width: '100%', height: '100%', opacity: 0.875}} >
+        <Image src="images/logo.jpg" className="header-image" style={ {position: "relative"} } />
                 <Grid id="whole">
             <WhenInView>
                     { ( isInView ) => 
@@ -64,6 +69,7 @@ export default class committees extends Component {
                 <br></br><br></br><br></br> 
                 <ScrollUpButton />
             </Grid>
+            </ImageBackground>
             </div>
         )
     }

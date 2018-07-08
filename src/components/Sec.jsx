@@ -10,18 +10,11 @@ class Sec extends Component {
   render() {
         return (
             <Grid id="whole">
-            <WhenInView>
-                    { ( isInView ) => 
-                        <RevealP hide={!isInView}>
-                             <Image src="images/anand.jpg" className="secpic"/>
-                        </RevealP>
-                    }
-                </WhenInView>
             <br></br><br></br>
                 <WhenInView>
                     { ( isInView ) => 
                         <RevealP hide={!isInView}>
-                             <Image src="images/gana.jpg" className="secpic"/>
+                             <div><Image src="images/anand.jpg" className="secpic"/></div>
                         </RevealP>
                     }
                 </WhenInView>
@@ -29,7 +22,7 @@ class Sec extends Component {
                 <WhenInView>
                     { ( isInView ) => 
                         <RevealP hide={!isInView}>
-                             <Image src="images/navneeth.jpg" className="secpic"/>
+                             <div><Image src="images/gana.jpg" className="secpic"/></div>
                         </RevealP>
                     }
                 </WhenInView>
@@ -37,7 +30,7 @@ class Sec extends Component {
                 <WhenInView>
                     { ( isInView ) => 
                         <RevealP hide={!isInView}>
-                             <Image src="images/meena.jpg" className="secpic"/>
+                             <div><Image src="images/bharath.jpg" className="secpic"/></div>
                         </RevealP>
                     }
                 </WhenInView>
@@ -45,7 +38,7 @@ class Sec extends Component {
                 <WhenInView>
                     { ( isInView ) => 
                         <RevealP hide={!isInView}>
-                             <Image src="images/tejas.jpg" className="secpic"/>
+                             <div><Image src="images/navneeth.jpg" className="secpic"/></div>
                         </RevealP>
                     }
                 </WhenInView>
@@ -53,7 +46,7 @@ class Sec extends Component {
                 <WhenInView>
                     { ( isInView ) => 
                         <RevealP hide={!isInView}>
-                             <Image src="images/bharath.jpg" className="secpic"/>
+                             <div><Image src="images/tejas.jpg" className="secpic"/></div>
                         </RevealP>
                     }
                 </WhenInView>

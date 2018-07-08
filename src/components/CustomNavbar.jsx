@@ -26,13 +26,16 @@ export default class CustomNavbar extends Component {
             <NavItem eventKey={4} componentClass={Link} href="/Applications" to="/Applications">
               Applications
             </NavItem>
-            <NavItem eventKey={5} componentClass={Link} href="/Sec" to="/Sec">
+            <NavItem eventKey={5} componentClass={Link} href="/Payment" to="/Payment">
+              Payment
+            </NavItem>
+            <NavItem eventKey={6} componentClass={Link} href="/Sec" to="/Sec">
               The Secretariat
             </NavItem>
-            <NavItem eventKey={6} componentClass={Link} href="/Sponsors" to="/Sponsors">
+            <NavItem eventKey={7} componentClass={Link} href="/Sponsors" to="/Sponsors">
               Sponsors
             </NavItem>
-            <NavItem eventKey={7} componentClass={Link} href="/ContactUs" to="/ContactUs">
+            <NavItem eventKey={8} componentClass={Link} href="/ContactUs" to="/ContactUs">
               Contact Us
             </NavItem>
           </Nav>
