@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import {View} from 'react-native';
 import './CustomNavbar.css'
@@ -7,8 +7,7 @@ import './CustomNavbar.css'
 export default class CustomNavbar extends Component {
   render() {
     return (
-      <View>
-      <Navbar default collapseOnSelect>
+      <Navbar id="navthis" fixedTop default>
         <Navbar.Header>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -17,7 +16,7 @@ export default class CustomNavbar extends Component {
             <NavItem eventKey={1} componentClass={Link} href="/" to="/">
               Home
             </NavItem>
-            <NavItem eventKey={2} componentClass={Link} href="/Committees" to="/Committees">
+            <NavItem eventKey={2} componentClass={Link} href="/committees" to="/committees">
               Committees
             </NavItem>
             <NavItem eventKey={3} componentClass={Link} href="/Ip" to="/Ip">
@@ -41,7 +40,6 @@ export default class CustomNavbar extends Component {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      </View>
     )
   }
 }
