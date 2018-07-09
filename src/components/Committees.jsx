@@ -9,68 +9,24 @@ import RevealP from 'react-reveal';
 export default class committees extends Component {
     render(){
         return (
-            <div>
-                <ImageBackground id="idkwhy2"
-        resizeMode = "repeat"
-        source={{uri: 'images/backmap.jpg'}}
-        style={{width: '100%', height: '100%', opacity: 0.875}} >
-        <Image src="images/logo.jpg" className="header-image" style={ {position: "relative"} } />
+            <View>
+            <ImageBackground id="idkwhy2"
+              resizeMode = "repeat"
+              source={{uri: 'images/backmap.jpg'}}
+              style={{width: '100%', height: '100%', opacity: 0.9}} >
+                      <Image src="images/logo.jpg" className="header-image" style={ {position: "relative"} } />
+                      <div><br></br><br></br><br></br><br></br></div>
                 <Grid id="whole">
-            <WhenInView>
-                    { ( isInView ) => 
-                        <RevealP hide={!isInView}>
-
-                            <div id="content"><p id="head"><h2>United Nations Security Council</h2>
-                             <Image src="images/UNSC.jpg" className="secpic"/>
-                             </p> </div>
-                        </RevealP>
-                    }
-                </WhenInView>
-            <br></br><br></br>
-                <WhenInView>
-                    { ( isInView ) => 
-                        <RevealP hide={!isInView}>
-                            <div id="content"><p id="head"><h2>Disarmament and International Security</h2>
-                             <Image src="images/DISEC.jpg" className="secpic"/>
-                             </p> </div>
-                        </RevealP>
-                    }
-                </WhenInView>
-                <br></br><br></br><br></br> 
-                <WhenInView>
-                    { ( isInView ) => 
-                        <RevealP hide={!isInView}>
-                            <div id="content"><p id="head"><h2>Human Rights Committee</h2>
-                             <Image src="images/UNHRC.jpg" className="secpic"/>
-                             </p> </div>
-                        </RevealP>
-                    }
-                </WhenInView>
-                <br></br><br></br><br></br> 
-                <WhenInView>
-                    { ( isInView ) => 
-                        <RevealP hide={!isInView}>
-                            <div id="content"><p id="head"><h2>Munich Security Council</h2>
-                             <Image src="images/MSC.jpg" className="secpic"/>
-                             </p> </div>
-                        </RevealP>
-                    }
-                </WhenInView>
-                <br></br><br></br><br></br> 
-                <WhenInView>
-                    { ( isInView ) => 
-                        <RevealP hide={!isInView}>
-                            <div id="content"><p id="head"><h2>Emergency Special Session</h2>
-                             <Image src="images/ESS.jpg" className="secpic"/>
-                             </p> </div>
-                        </RevealP>
-                    }
-                </WhenInView>
+                <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative"}} src="images/UNSC.jpg" className="secpic"/></div>
+                <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative"}} src="images/DISEC.jpg" className="secpic"/></div>
+                <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative"}} src="images/UNHRC.jpg" className="secpic"/></div>
+                <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative"}} src="images/MSC.jpg" className="secpic"/></div>
+                <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative"}} src="images/ESS.jpg" className="secpic"/></div>
                 <br></br><br></br><br></br> 
                 <ScrollUpButton />
             </Grid>
             </ImageBackground>
-            </div>
+            </View>
         )
     }
 }
