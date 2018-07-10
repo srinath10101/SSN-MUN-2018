@@ -17,11 +17,11 @@ export default class committees extends Component {
                       <Image src="images/logo.jpg" className="header-image" style={ {position: "relative"} } />
                       <div><br></br><br></br><br></br><br></br></div>
                 <Grid id="whole">
-                <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative"}} src="images/UNSC.jpg" className="secpic"/></div>
-                <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative"}} src="images/DISEC.jpg" className="secpic"/></div>
-                <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative"}} src="images/UNHRC.jpg" className="secpic"/></div>
-                <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative"}} src="images/MSC.jpg" className="secpic"/></div>
-                <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative"}} src="images/ESS.jpg" className="secpic"/></div>
+                <a href="/com/UNSC"><div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative", cursor: "pointer"}} src="images/UNSC.jpg" className="secpic"/></div></a>
+                <a href="/com/DISEC"><div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative", cursor: "pointer"}} src="images/DISEC.jpg" className="secpic"/></div></a>
+                <a href="/com/UNHRC"><div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative", cursor: "pointer"}} src="images/UNHRC.jpg" className="secpic"/></div></a>
+                <a href="/com/MSC"><div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative", cursor: "pointer"}} src="images/MSC.jpg" className="secpic"/></div></a>
+                <a href="/com/ESS"><div className="col-lg-4 col-md-5 col-sm-6 col-xs-12"><Image style={{position: "relative", cursor: "pointer"}} src="images/ESS.jpg" className="secpic"/></div></a>
                 <br></br><br></br><br></br> 
                 <ScrollUpButton />
             </Grid>

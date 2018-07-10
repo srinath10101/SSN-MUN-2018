@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import {View} from 'react-native';
 import './CustomNavbar.css'
@@ -28,8 +28,8 @@ export default class CustomNavbar extends Component {
             <NavItem eventKey={5} componentClass={Link} href="/Payment" to="/Payment">
               Payment
             </NavItem>
-            <NavItem eventKey={6} componentClass={Link} href="/Sec" to="/Sec">
-              The Secretariat
+            <NavItem eventKey={6} componentClass={Link} href="/Team" to="/Team">
+              The Organising Team
             </NavItem>
             <NavItem eventKey={7} componentClass={Link} href="/Sponsors" to="/Sponsors">
               Sponsors
