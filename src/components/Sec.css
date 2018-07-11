@@ -2,6 +2,7 @@
     width: 100%;
     border: thick solid blue;
     height: 100%;
+    position: relative;
 }
 
 #whole {

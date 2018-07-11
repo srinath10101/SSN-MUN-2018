@@ -12,20 +12,9 @@ export default class Applications extends Component {
         <View id="contai">
         <ScrollUpButton />
         <Image src="images/logo.jpg" className="header-image" />
-        <div><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br> </div>
+        <div><br></br><br></br><br></br> </div>
         
-          <WhenInView>
-            { ( isInView ) => 
-            
-            <RevealP hide={!isInView}>
-            <div id="content"><p id="head"><h2>Applications:</h2>
-            Please wait for the Applications to be released!<br></br>
-            </p>
-            </div>
-            </RevealP>
-
-            }
-        </WhenInView>
+        <p> USER WILL BE DIRECTED TO DELEGATE APPLICATIONS FORM AND WILL NOT SEE THIS PAGE </p>  
         
       </View>
       )
