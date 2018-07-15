@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, NavDropdown} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import {View} from 'react-native';
+import {View, Linking} from 'react-native';
 import './CustomNavbar.css'
 
 export default class CustomNavbar extends Component {
@@ -19,7 +19,7 @@ export default class CustomNavbar extends Component {
             <NavItem eventKey={2} componentClass={Link} href="/committees" to="/committees">
               Committees
             </NavItem>
-            <NavItem eventKey={3} componentClass={Link} href="/Applications" to="/Applications">
+            <NavItem eventKey={3} componentClass={Link} href="/apply" to="/apply">
               Delegate Applications
             </NavItem>
             <NavItem eventKey={4} componentClass={Link} href="/Payment" to="/Payment">

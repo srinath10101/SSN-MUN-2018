@@ -26,7 +26,19 @@ export default class Sponsors extends Component {
 
             }
         </WhenInView>
-        
+        <div style={{backgroundColor: "black" }}><br></br><br></br><br></br></div>
+      <View
+  style={{
+    borderBottomColor: 'grey',
+    borderBottomWidth: 1,
+  }}
+/>
+      <div style={{backgroundColor: "black", color:"white", textAlign: "center", fontSize: "25px" }}><br></br>Made with:
+      <br></br>
+      <Image src="./images/reactimg.png" style={{position: "relative", width: "70px", height: "70px"}}/>
+      <Image src="images/addimg.png" style={{position: "relative", width: "30px", height: "30px"}}/>
+      <Image src="images/heartimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>
+      </div>
       </View>
       )
     }

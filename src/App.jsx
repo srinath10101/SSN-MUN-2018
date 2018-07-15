@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, WebView } from 'react';
 import {Text, View, ImageBackground} from 'react-native';
 import {Image} from 'react-bootstrap';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Committees from './components/Committees';
-import News from './components/News';
 import Sec from './components/Sec';
 import Navbar from './components/CustomNavbar';
 import Applications from "./components/Applications";
@@ -35,7 +34,6 @@ class App extends Component {
           <Route path="/com/IP" component={IP} />
           <Route path="/com/MSC" component={MSC} />
           <Route path="/com/ESS" component={ESS} />
-          <Route path="/news" component={News} />
           <Route path="/Team" component={Sec} />
           <Route path="/applications" component={Applications} />
           <Route path="/Payment" component={Payment} />
@@ -44,19 +42,6 @@ class App extends Component {
         </div>
       </Router>
       
-      <div style={{backgroundColor: "black" }}><br></br><br></br><br></br></div>
-      <View
-  style={{
-    borderBottomColor: 'grey',
-    borderBottomWidth: 1,
-  }}
-/>
-      <div style={{backgroundColor: "black", color:"white", textAlign: "center" }}><br></br>Made with:
-      <br></br>
-      <Image src="images/reactimg.png" style={{position: "relative", width: "70px", height: "70px"}}/>
-      <Image src="images/addimg.png" style={{position: "relative", width: "30px", height: "30px"}}/>
-      <Image src="images/heartimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>
-      </div>
       </View>
     );
   }

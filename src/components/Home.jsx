@@ -18,15 +18,41 @@ export default class Home extends Component {
         <Image id="mainlogo" src="images/logo.jpg" id="mainlogo" className="header-image" style={ {position: "relative", height: "100%", width: "100%", marginTop: "0.25em"} } /> 
         </div>
       <ScrollUpButton/>
-            <ScrollUpButton />
                       <div><br></br><br></br></div>
                 <Grid id="whole">
-                <div className="col-lg-12" style={{border: "thick solid blue", backgroundColor: "black"}}><h3 style={{color: "white"}}>Letter from the Secretary General</h3><p style={{color: "white"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.         <br></br>
+                <div className="col-lg-12" style={{border: "thick solid blue", backgroundColor: "black"}}><h3 style={{color: "white"}}>Letter from the Secretary General</h3><p style={{color: "white"}}>
+                <br></br>
+                Ladies and Gentlemen,
+<br></br><br></br>
+On behalf of the entire Organizing Committee, it gives me great pleasure to welcome you to SSN Model United Nations, 2018.<br></br>
+<br></br>
+Ever since its inception in 2014, SSNMUN has been renown for the standards that it has established in the MUN circuit in terms of the quality of the participation of delegates and the Executive Board members who have been a part of our conference. This conference has always sought to build upon and surpass  the foundations and standards that we have established with each subsequent edition and we’re confident this edition will be no different. <br></br>
+<br></br>
+This year, with a total of 6 committees, we look forward to hosting a conference of exceptional quality, and ensure that all attendees take away something of value, enriching all stakeholders in the process as well as making it a conference to remember.<br></br>
+<br></br>
+Henceforth, I cordially invite you to SSN MUN 2018, to experience three days of engaging debate and deliberation.
+<br></br><br></br>
+Yours Sincerely<br></br>
+Anand Subramanian<br></br>
+Secretary General<br></br>
+SSN MUN 2018<br></br>
  </p></div>
             </Grid>
             <div><br></br><br></br></div>
             </ImageBackground>
+            <div style={{backgroundColor: "black" }}><br></br><br></br><br></br></div>
+      <View
+  style={{
+    borderBottomColor: 'grey',
+    borderBottomWidth: 1,
+  }}
+/>
+      <div style={{backgroundColor: "black", color:"white", textAlign: "center", fontSize: "25px" }}><br></br>Made with:
+      <br></br>
+      <Image src="./images/reactimg.png" style={{position: "relative", width: "70px", height: "70px"}}/>
+      <Image src="images/addimg.png" style={{position: "relative", width: "30px", height: "30px"}}/>
+      <Image src="images/heartimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>
+      </div>
             </View>
     )
   }
