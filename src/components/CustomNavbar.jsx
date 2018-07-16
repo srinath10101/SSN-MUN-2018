@@ -7,7 +7,10 @@ import './CustomNavbar.css'
 export default class CustomNavbar extends Component {
   render() {
     return (
-      <Navbar fixedTop default collapseOnSelect>
+
+      <View>
+      </View>
+      /* <Navbar fixedTop default collapseOnSelect>
         <Navbar.Header>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -37,6 +40,7 @@ export default class CustomNavbar extends Component {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      */
     )
   }
 }
