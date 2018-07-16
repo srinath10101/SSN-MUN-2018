@@ -15,6 +15,8 @@ import UNSC from './components/com/UNSC';
 import DISEC from './components/com/DISEC';
 import UNHRC from './components/com/UNHRC';
 import MSC from './components/com/MSC';
+import Matrix from './components/matrices';
+import Apply from './components/Applications';
 import IP from './components/com/IP';
 import ESS from './components/com/ESS';
 
@@ -26,6 +28,8 @@ class App extends Component {
         <div>
           {/* <Navbar /> */}
           <Route exact path="/" component={Home} />
+          <Route path="/matrices" component={Matrix} />
+          <Route path="/apply" component={Apply} />
           {/*<Route path="/committees" />
           <Route path="/com/UNSC"  />
           <Route path="/com/DISEC"  />
