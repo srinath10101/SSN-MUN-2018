@@ -5,7 +5,7 @@ import WhenInView from './WhenInView/WhenInView';
 import RevealP from 'react-reveal';
 import './Home.css';
 import ScrollUpButton from 'react-scroll-up-button';
-
+import FitImage from 'react-native-fit-image';
 
 export default class Home extends Component {
          
@@ -13,12 +13,12 @@ export default class Home extends Component {
         return (
 
         <View>
-            <ImageBackground id="idkwhy2"
-        resizeMode = "cover"
-        source={{uri: 'images/backmap322.jpg'}}
-        style={{width: '100%', height: '100%', marginTop:"-0.3em"}} >
-              
-        <Image id="mainlogo" src="images/logo.jpg" id="mainlogo" className="header-image" style={ {position: "relative", height: "100%", width: "100%", marginTop: "0.25em"} } /> 
+           <ImageBackground id="idkwhy2"
+        resizeMode= "repeat"
+        position="relative"
+        source={{uri: 'images/hd2.jpg'}}
+        style={{width: '100%',marginTop:"-0.3em", position:'relative'}} >
+              <Image id="mainlogo" src="images/logo.jpg" id="mainlogo" className="header-image" style={ {position: "relative", height: "100%", width: "100%", marginTop: "0.25em"} } />
         <View
   style={{
     borderBottomColor: 'grey',
@@ -29,7 +29,7 @@ export default class Home extends Component {
                 <div><br></br><br></br></div>      
                 <Grid id="whole">
                 
-                <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/backmap322flip.jpg')"}}><h3 style={{color: "black"}}>Letter from the Secretary General</h3><p style={{color: "black"}}>
+                <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flip.jpg')"}}><h3 style={{color: "black"}}>Letter from the Secretary General</h3><p style={{color: "black"}}>
                 <br></br>
                 Ladies and Gentlemen,
 <br></br><br></br>
@@ -48,19 +48,23 @@ SSN MUN 2018<br></br>
  </p></div>
             </Grid>
             <div><br></br><br></br></div>
-            </ImageBackground>
+            
+
+</ImageBackground>
+
+            
       <View
   style={{
     borderBottomColor: 'grey',
     borderBottomWidth: 3,
   }}
 />
-      <div style={{background: "url('images/backmap322flip.jpg')", color:"black", textAlign: "center", fontSize: "25px" }}><br></br>Made with:
+      <div style={{backgroundColor: "#cccccc", color:"black", textAlign: "center", fontSize: "15px" }}>Made with:
       <br></br>
-      <Image src="./images/reactimg.png" style={{position: "relative", width: "70px", height: "70px"}}/>
+      <Image src="./images/reactimg.png" style={{position: "relative", width: "60px", height: "60px"}}/>
       <Image src="images/addimg.png" style={{position: "relative", width: "30px", height: "30px"}}/>
       <Image src="images/heartimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>
-      <br></br><br></br>
+      <br></br>
 </div>
 </View>
     );
