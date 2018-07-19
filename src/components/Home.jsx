@@ -14,16 +14,22 @@ export default class Home extends Component {
 
         <View>
             <ImageBackground id="idkwhy2"
-        resizeMode = "repeat"
-        source={{uri: 'images/backmap.jpg'}}
-        style={{width: '100%', height: '100%', marginTop:"-1em", opacity: 0.9}} >
-              <div class="section" style={{height:"100%", width: "100%"}}>
+        resizeMode = "cover"
+        source={{uri: 'images/backmap322.jpg'}}
+        style={{width: '100%', height: '100%', marginTop:"-0.3em"}} >
+              
         <Image id="mainlogo" src="images/logo.jpg" id="mainlogo" className="header-image" style={ {position: "relative", height: "100%", width: "100%", marginTop: "0.25em"} } /> 
-        </div>
+        <View
+  style={{
+    borderBottomColor: 'grey',
+    borderBottomWidth: 3,
+  }}
+/>
       <ScrollUpButton/>
-                      <div><br></br><br></br></div>
+                <div><br></br><br></br></div>      
                 <Grid id="whole">
-                <div className="col-lg-12" style={{border: "thick solid blue", backgroundColor: "black"}}><h3 style={{color: "white"}}>Letter from the Secretary General</h3><p style={{color: "white"}}>
+                
+                <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/backmap322flip.jpg')"}}><h3 style={{color: "black"}}>Letter from the Secretary General</h3><p style={{color: "black"}}>
                 <br></br>
                 Ladies and Gentlemen,
 <br></br><br></br>
@@ -43,18 +49,18 @@ SSN MUN 2018<br></br>
             </Grid>
             <div><br></br><br></br></div>
             </ImageBackground>
-            <div style={{backgroundColor: "black" }}><br></br><br></br><br></br></div>
       <View
   style={{
     borderBottomColor: 'grey',
-    borderBottomWidth: 1,
+    borderBottomWidth: 3,
   }}
 />
-      <div style={{backgroundColor: "black", color:"white", textAlign: "center", fontSize: "25px" }}><br></br>Made with:
+      <div style={{background: "url('images/backmap322flip.jpg')", color:"black", textAlign: "center", fontSize: "25px" }}><br></br>Made with:
       <br></br>
       <Image src="./images/reactimg.png" style={{position: "relative", width: "70px", height: "70px"}}/>
       <Image src="images/addimg.png" style={{position: "relative", width: "30px", height: "30px"}}/>
       <Image src="images/heartimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>
+      <br></br><br></br>
 </div>
 </View>
     );
