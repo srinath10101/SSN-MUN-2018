@@ -5,7 +5,7 @@ import WhenInView from './WhenInView/WhenInView';
 import RevealP from 'react-reveal';
 import './Home.css';
 import ScrollUpButton from 'react-scroll-up-button';
-import AwesomeButton from 'react-native-really-awesome-button';
+//import AwesomeButton from 'react-native-really-awesome-button';
 
 let className = 'bgimg';
 
