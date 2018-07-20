@@ -5,6 +5,7 @@ import WhenInView from './WhenInView/WhenInView';
 import RevealP from 'react-reveal';
 import './Home.css';
 import ScrollUpButton from 'react-scroll-up-button';
+import AwesomeButton from 'react-native-really-awesome-button';
 
 let className = 'bgimg';
 
@@ -36,8 +37,10 @@ export default class Home extends Component {
         <ScrollUpButton/>
                   <div><br></br><br></br></div>      
                   <Grid id="whole">
-                  
-                  <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h3 style={{color: "black"}}>Letter from the Secretary General</h3><p style={{color: "black"}}>
+                  <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h3 style={{color: "black", textAlign: "center", fontFamily: "'Metropolis Black', Arial, serif"}}>Letter from the Secretary General</h3><p style={{color: "black", fontFamily: "'Metropolis Italic'"}}>
+                  <br></br>
+                  <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                  <br></br>
                   <br></br>
                   Ladies and Gentlemen,
   <br></br><br></br>
@@ -54,6 +57,12 @@ export default class Home extends Component {
   Secretary General<br></br>
   SSN MUN 2018<br></br>
    </p></div>
+   <div className="col-lg-12"><br></br><br></br></div>
+        <div className="col-lg-6 col-lg-offset-3">
+        
+            
+
+        </div>
               </Grid>
               <div><br></br><br></br></div>
               
@@ -99,9 +108,12 @@ export default class Home extends Component {
           <ScrollUpButton/>
                     <div><br></br><br></br></div>      
                     <Grid id="whole">
-                    
-                    <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h3 style={{color: "black"}}>Letter from the Secretary General</h3><p style={{color: "black"}}>
-                    <br></br>
+                    <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h2 style={{color: "black", textAlign: "center", fontFamily: "'Metropolis Black', Arial, serif"}}>Letter from the Secretary General</h2><p style={{color: "black", fontFamily: "'Metropolis Italic'"}}>
+                    <div className="col-lg-6 col-lg-offset-3">
+                    <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                    </div>
+                    <div className="col-lg-12">
+                    <br></br><br></br>                                       
                     Ladies and Gentlemen,
     <br></br><br></br>
     On behalf of the entire Organizing Committee, it gives me great pleasure to welcome you to SSN Model United Nations, 2018.<br></br>
@@ -116,7 +128,17 @@ export default class Home extends Component {
     Anand Subramanian<br></br>
     Secretary General<br></br>
     SSN MUN 2018<br></br>
+                    
+                    </div>   
+                    
      </p></div>
+     <div className="col-lg-12"><br></br><br></br></div>
+        <div className="col-lg-6 col-lg-offset-3">
+
+            
+
+
+        </div>
                 </Grid>
                 <div><br></br><br></br></div>
                 

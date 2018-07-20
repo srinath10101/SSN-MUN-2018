@@ -1,8 +1,20 @@
+@font-face {
+  font-family: 'Metropolis Black';
+   src: url("./fonts/Metropolis-Black.otf");
+ }
+
+ @font-face {
+  font-family: 'Metropolis Italic';
+   src: url("./fonts/Metropolis-BlackItalic.otf");
+ }
+
 #head {
   margin-left: 2em;
   margin-right: 2em;
   color: white;
 }
+
+
 
 #content{
     overflow-y: scroll; 
