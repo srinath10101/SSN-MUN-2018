@@ -10,7 +10,6 @@
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.0",
     "react-native": "0.55.4",
-    "react-native-fit-image": "^1.5.4",
     "react-native-web": "0.7.3",
     "react-navigation": "^2.6.2",
     "react-reveal": "1.2.2",
@@ -19,7 +18,8 @@
     "react-scripts": "1.1.4",
     "react-scroll-up-button": "^1.5.11",
     "react-waypoint": "^8.0.1",
-    "really-smooth-scroll": "^2.1.1"
+    "really-smooth-scroll": "^2.1.1",
+    "styled-components": "^3.3.3"
   },
   "devDependencies": {},
   "scripts": {
