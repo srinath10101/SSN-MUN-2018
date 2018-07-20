@@ -15,11 +15,11 @@ export default class committees extends Component {
         source={{uri: 'images/backmap.jpg'}}
         style={{width: '100%', height: '100%', marginTop:"-1em", opacity: 0.9}} >
               <div class="section" style={{height:"100%", width: "100%"}}>
-        <Image id="mainlogo" src="images/logo.jpg" id="mainlogo" className="header-image" style={ {position: "relative", height: "100%", width: "100%", marginTop: "0.25em"} } /> 
+              <Image id="mainlogo" src="images/logo.jpg" id="mainlogo" className="header-image" style={ {position: "relative", height: "100%", width: "100%", marginTop: "3.5em"} } />
         </div>
       <ScrollUpButton/>
             <ScrollUpButton />
-                      <div><br></br><br></br></div>
+                      <div><br></br><br></br><br></br><br></br></div>
                 <Grid id="whole">
                 <div className="col-lg-4"><a href="/com/IP"><Image style={{position: "relative", cursor: "pointer"}} src="images/IP.jpg" className="secpic"/></a><br></br><br></br></div>
                 <div className="col-lg-4"><a href="/com/UNSC"><Image style={{position: "relative", cursor: "pointer"}} src="images/UNSC.jpg" className="secpic"/></a><br></br><br></br></div>

@@ -8,39 +8,36 @@ export default class CustomNavbar extends Component {
   render() {
     return (
 
-      <View>
-      </View>
-      /* <Navbar fixedTop default collapseOnSelect>
+      <Navbar fixedTop default collapseOnSelect>
         <Navbar.Header>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
             <NavItem eventKey={1} componentClass={Link} href="/" to="/">
-              Home
+              <b>Home</b>
             </NavItem>
             <NavItem eventKey={2} componentClass={Link} href="/committees" to="/committees">
-              Committees
+              <b>Committees</b>
             </NavItem>
             <NavItem eventKey={3} componentClass={Link} href="/apply" to="/apply">
-              Delegate Applications
+              <b>Delegate Applications</b>
             </NavItem>
             <NavItem eventKey={4} componentClass={Link} href="/Payment" to="/Payment">
-              Payment
+              <b>Payment</b>
             </NavItem>
             <NavItem eventKey={5} componentClass={Link} href="/Team" to="/Team">
-              The Organising Team
+              <b>The Organising Team</b>
             </NavItem>
-            <NavItem eventKey={6} componentClass={Link} href="/Sponsors" to="/Sponsors">
+            {/*<NavItem eventKey={6} componentClass={Link} href="/Sponsors" to="/Sponsors">
               Sponsors
             </NavItem>
             <NavItem eventKey={7} componentClass={Link} href="/ContactUs" to="/ContactUs">
               Contact Us
-            </NavItem>
+            </NavItem> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      */
     )
   }
 }

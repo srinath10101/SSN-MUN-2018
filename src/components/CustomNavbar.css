@@ -1,10 +1,10 @@
 nav.navbar, .navbar-default {
-    background-color: rgb(0, 0, 0) !important;
+    background-color: rgb(155, 167, 170) !important;
   }
   
   .navbar-default {
     background-image: none;
-    border: red;
+    border: white;
     border-width: 2px;
   }
 
@@ -12,23 +12,23 @@ nav.navbar, .navbar-default {
   position: fixed;
   right: 0;
   left: 0;
-  background-color: black;
+  background-color: white;
   z-index: 1030;
 }  
   .navbar-default .navbar-nav > li > a {
-    color: white;
+    color: black;
   }
   
   .navbar-default .navbar-brand {
-    color: red;
+    color: white;
   }
   
   .navbar-default .navbar-toggle {
-    border-color: red;
+    border-color: white;
   }
   
   .navbar-default .navbar-toggle .icon-bar {
-    background-color: red;
+    background-color: black;
   }
   
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -36,11 +36,11 @@ nav.navbar, .navbar-default {
   }
   
   .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: red;
+    color: white;
     background-color: transparent;
   }
   
   .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: red;
+    color: white;
     background-color: transparent;
   }

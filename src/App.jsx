@@ -21,27 +21,26 @@ import IP from './components/com/IP';
 import ESS from './components/com/ESS';
 
 class App extends Component {
+
   render() {
     return (
       <View>
     <Router>
         <div>
-          {/* <Navbar /> */}
+          <Navbar /> 
           <Route exact path="/" component={Home} />
           <Route path="/matrices" component={Matrix} />
           <Route path="/apply" component={Apply} />
-          {/*<Route path="/committees" />
-          <Route path="/com/UNSC"  />
-          <Route path="/com/DISEC"  />
-          <Route path="/com/UNHRC"  />
-          <Route path="/com/IP"  />
-          <Route path="/com/MSC"  />
-          <Route path="/com/ESS"  />
-          <Route path="/Team"  />
-          <Route path="/applications"  />
-          <Route path="/Payment"  />
-          <Route path="/sponsors"  />
-    <Route path="/contactus"  /> */}
+          <Route path="/committees" component={Committees} />
+          <Route path="/com/UNSC"  component={UNSC}/>
+          <Route path="/com/DISEC"  component={DISEC}/>
+          <Route path="/com/UNHRC"  component={UNHRC}/>
+          <Route path="/com/IP"  component={IP}/>
+          <Route path="/com/MSC"  component={MSC}/>
+          <Route path="/com/ESS"  component={ESS}/>
+          <Route path="/Team"  component={Sec}/>
+          <Route path="/Payment"  component={Payment}/>
+          
         </div>
         </Router>
       </View>

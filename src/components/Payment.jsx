@@ -11,7 +11,7 @@ export default class Payment extends Component{
     render() {
         return (
             <View>
-                <div style={{textAlign:"center", height: "100px"}}><br></br><p>The payment portal will open after delegates have been assigned committees and contries. Check again later.</p>
+                <div style={{textAlign:"center", height: "100px", marginTop:"3em"}}><br></br><p>The payment portal will open after delegates have been assigned committees and contries. Please check again later.</p>
                 </div>
                 <div style={{backgroundColor: "black" }}><br></br><br></br><br></br></div>
       <View

@@ -27,7 +27,7 @@ export default class Home extends Component {
         return (
 
           <View>
-              <Image id="mainlogo" src="images/logo.jpg" id="mainlogo" className="header-image" style={ {position: "relative", height: "100%", width: "100%", marginTop: "0.25em"} } />
+              <Image id="mainlogo" src="images/logo.jpg" id="mainlogo" className="header-image" style={ {position: "relative", height: "100%", width: "100%", marginTop: "3.5em"} } />
           <View
     style={{
       borderBottomColor: 'grey',
@@ -37,7 +37,7 @@ export default class Home extends Component {
         <ScrollUpButton/>
                   <div><br></br><br></br></div>      
                   <Grid id="whole">
-                  <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h3 style={{color: "black", textAlign: "center"}}>Letter from the Secretary General</h3><p style={{color: "black"}}>
+                  <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h2 style={{color: "black", textAlign: "center"}}>Letter from the Secretary General</h2><p style={{color: "black"}}>
                   <br></br>
                   <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                   <br></br>
@@ -77,8 +77,8 @@ export default class Home extends Component {
         <div style={{backgroundColor: "#cccccc", color:"black", textAlign: "center", fontSize: "15px" }}>Made with:
         <br></br>
         <Image src="./images/reactimg.png" style={{position: "relative", width: "60px", height: "60px"}}/>
-        <Image src="images/addimg.png" style={{position: "relative", width: "30px", height: "30px"}}/>
-        <Image src="images/heartimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>
+              <b>and</b> {/*<Image src="images/addimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>*/}
+        <Image src="images/heartimg.png" style={{position: "relative", width: "45px", height: "45px"}}/>
         <br></br>
   </div>
   </View>
@@ -98,7 +98,7 @@ export default class Home extends Component {
               source = {{uri: 'images/hd2flip.jpg'}}
             position="relative"
             style={{width: '100%',marginTop:"-0.3em", position:'relative'}} >
-                <Image id="mainlogo" src="images/logo.jpg" id="mainlogo" className="header-image" style={ {position: "relative", height: "100%", width: "100%", marginTop: "0.25em"} } />
+                              <Image id="mainlogo" src="images/logo.jpg" id="mainlogo" className="header-image" style={ {position: "relative", height: "100%", width: "100%", marginTop: "3.5em"} } />
             <View
       style={{
         borderBottomColor: 'grey',
@@ -152,11 +152,11 @@ export default class Home extends Component {
         borderBottomWidth: 3,
       }}
     />
-          <div style={{backgroundColor: "#cccccc", color:"black", textAlign: "center", fontSize: "15px" }}>Made with:
+          <div style={{backgroundColor: "#bfbab9", color:"black", textAlign: "center", fontSize: "15px" }}><b>Made with:</b>
           <br></br>
           <Image src="./images/reactimg.png" style={{position: "relative", width: "60px", height: "60px"}}/>
-          <Image src="images/addimg.png" style={{position: "relative", width: "30px", height: "30px"}}/>
-          <Image src="images/heartimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>
+              <b>and</b> {/*<Image src="images/addimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>*/}
+          <Image src="images/heartimg.png" style={{position: "relative", width: "40px", height: "40px"}}/>
           <br></br>
     </div>
     </View>
