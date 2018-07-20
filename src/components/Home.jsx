@@ -37,7 +37,7 @@ export default class Home extends Component {
         <ScrollUpButton/>
                   <div><br></br><br></br></div>      
                   <Grid id="whole">
-                  <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h3 style={{color: "black", textAlign: "center", fontFamily: "'Metropolis Black', Arial, serif"}}>Letter from the Secretary General</h3><p style={{color: "black", fontFamily: "'Metropolis Italic'"}}>
+                  <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h3 style={{color: "black", textAlign: "center"}}>Letter from the Secretary General</h3><p style={{color: "black"}}>
                   <br></br>
                   <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                   <br></br>
@@ -108,7 +108,7 @@ export default class Home extends Component {
           <ScrollUpButton/>
                     <div><br></br><br></br></div>      
                     <Grid id="whole">
-                    <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h2 style={{color: "black", textAlign: "center", fontFamily: "'Metropolis Black', Arial, serif"}}>Letter from the Secretary General</h2><p style={{color: "black", fontFamily: "'Metropolis Italic'"}}>
+                    <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h2 style={{color: "black", textAlign: "center"}}>Letter from the Secretary General</h2><p style={{color: "black"}}>
                     <div className="col-lg-6 col-lg-offset-3">
                     <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                     </div>
