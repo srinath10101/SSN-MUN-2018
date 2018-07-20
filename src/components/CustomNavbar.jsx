@@ -29,12 +29,12 @@ export default class CustomNavbar extends Component {
             <NavItem eventKey={5} componentClass={Link} href="/Team" to="/Team">
               <b>The Organising Team</b>
             </NavItem>
-            {/*<NavItem eventKey={6} componentClass={Link} href="/Sponsors" to="/Sponsors">
-              Sponsors
+            <NavItem eventKey={6} componentClass={Link} href="/Sponsors" to="/Sponsors">
+              <b>Sponsors</b>
             </NavItem>
             <NavItem eventKey={7} componentClass={Link} href="/ContactUs" to="/ContactUs">
-              Contact Us
-            </NavItem> */}
+              <b>Contact Us</b>
+            </NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
