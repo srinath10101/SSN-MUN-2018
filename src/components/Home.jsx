@@ -5,7 +5,6 @@ import WhenInView from './WhenInView/WhenInView';
 import RevealP from 'react-reveal';
 import './Home.css';
 import ScrollUpButton from 'react-scroll-up-button';
-//import AwesomeButton from 'react-native-really-awesome-button';
 
 export default class Home extends Component {
   constructor(props) {
@@ -38,6 +37,9 @@ export default class Home extends Component {
                   <div className="col-lg-12" style={{border: "medium solid black", background: "url('images/hd2flipsmall.jpg')"}}><h3 style={{color: "black", textAlign: "center"}}><b>Letter from the<br></br> Secretary General</b></h3><p style={{color: "black"}}>
                   <br></br>
                   <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                  <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>    
                   <br></br>
                   <br></br>
                   Ladies and Gentlemen,
@@ -54,6 +56,9 @@ export default class Home extends Component {
   Anand Subramanian<br></br>
   Secretary General<br></br>
   SSN MUN 2018<br></br>
+  </RevealP>
+                    }
+                </WhenInView>
    </p></div>
    <div className="col-lg-12"><br></br><br></br></div>
               </Grid>
