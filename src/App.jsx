@@ -38,6 +38,7 @@ class App extends Component {
           <Route path="/com/IP"  component={IP}/>
           <Route path="/com/MSC"  component={MSC}/>
           <Route path="/com/ESS"  component={ESS}/>
+          <Route path="/ContactUs"  component={ContactUs}/>
           <Route path="/Team"  component={Sec}/>
           <Route path="/Payment"  component={Payment}/>
           

@@ -19,24 +19,21 @@ export default class unhrc extends Component {
 
         // Load mobile image
         return (
-            <View>
+            <View style={{marginTop:"3em"}}>
                 <ScrollUpButton />
                 <div><br></br></div>
                 <Grid>
-                <div className="col-lg-6 col-lg-offset-3 col-xs-12" style={{backgroundColor: "black", border: "thick solid white"}}><h3 style={{color: "red", textAlign:"center"}}>United Nations Human Rights Council</h3></div>
+                <div className="col-lg-12 col-xs-12"><h3 style={{color: "black", textAlign:"center"}}><b>United Nations<br></br> Human Rights Council</b></h3></div>
                 <div className="col-lg-12 col-xs-12"><br></br><br></br></div>
-                <div style={{border: "thick solid black"}}>
-                <div className="col-lg-6 col-lg-offset-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}>
-                <h3 style={{color:"white",textAlign:"center"}}>AGENDA:</h3>
+                <div className="col-lg-6 col-lg-offset-3 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/HRCbgmFlip.png')"}}>
+                <h3 style={{color:"white",textAlign:"center"}}><b>AGENDA:</b></h3>
                 <p style={{color: "white", textAlign: "center", fontSize:"20px"}}>
                     "UNHRC Special Session :<br></br> Human Rights situation in occupied Palestinian territory, including east Jerusalem and the Syrian Golan."
                 </p>
                 <br></br></div>
-                </div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
 
-                <div style={{border: "thick solid black"}}>
-                <div className="col-lg-12 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}>
+                <div className="col-lg-12 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/HRCbgmFlip.png')"}}>
                 <p style={{color: "white"}}><br></br>
                 
                 “A right delayed is a right denied.”<br></br>-Martin Luther King Jr<br></br><br></br>
@@ -49,42 +46,35 @@ The UNHRC is one of the six councils being simulated at SSN MUN this year.<br></
                 
                 </p>
                 <br></br></div>
-                </div>
 
-                <div style={{border: "thick solid black"}}>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 style={{color: "white", textAlign:"center"}}>Director</h4><Image src="../images/unhrc/1.png" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#631D59"}}><h4 style={{color: "white", textAlign:"center"}}><b>Director</b></h4><Image src="../images/unhrc/1.png" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Ishita M</p> <br></br></div>
-                </div>
                 <div className="col-xs-1"><br></br><br></br></div>
-                <div style={{border: "thick solid black"}}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 style={{color: "white", textAlign:"center"}}>Chair-person</h4><Image src="../images/unhrc/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#631D59"}}><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/unhrc/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Adiya Kumar</p><br></br></div>
-                </div>
                 <div className="col-xs-1"><br></br><br></br></div>
 
-                <div style={{border: "thick solid black"}}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 style={{color: "white", textAlign:"center"}}>Vice Chair-person</h4><Image src="../images/unhrc/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#631D59"}}><h4 style={{color: "white", textAlign:"center"}}><b>Vice Chair-person</b></h4><Image src="../images/unhrc/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Eassa Salim</p><br></br></div>
-                </div>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
                 
 
                 </Grid>                
                 <div><br></br><br></br></div>
-                <div style={{backgroundColor: "black" }}><br></br><br></br><br></br></div>
-      <View
-  style={{
-    borderBottomColor: 'grey',
-    borderBottomWidth: 1,
-  }}
+                <View
+style={{
+borderBottomColor: 'grey',
+borderBottomWidth: 4,
+}}
 />
-      <div style={{backgroundColor: "black", color:"white", textAlign: "center", fontSize: "25px" }}><br></br>Made with:
-      <br></br>
-      <Image src="../images/reactimg.png" style={{position: "relative", width: "70px", height: "70px"}}/>
-      <Image src="../images/addimg.png" style={{position: "relative", width: "30px", height: "30px"}}/>
-      <Image src="../images/heartimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>
-      </div>
+<div style={{backgroundColor: "#cccccc", color:"black", textAlign: "center", fontSize: "15px" }}><b>Made with:</b>
+    <br></br>
+    <Image src="../images/reactimg.png" style={{position: "relative", width: "60px", height: "60px"}}/>
+          <b>and</b> {/*<Image src="images/addimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>*/}
+    <Image src="../images/heartimg.png" style={{position: "relative", width: "45px", height: "45px"}}/>
+    <br></br>
+</div>
             </View>
         )
       }
@@ -94,24 +84,21 @@ The UNHRC is one of the six councils being simulated at SSN MUN this year.<br></
                 <ImageBackground id="idkwhy2"
         resizeMode = "repeat"
         source={{uri: '../images/com/HRCbgm.png'}}
-        style={{width: '100%', height: '100%', opacity: 0.9, marginTop: "3em"}} >
+        style={{width: '100%', height: '100%', marginTop: "3em"}} >
                 <ScrollUpButton />
                 <div><br></br></div>
                 <Grid>
-                <div className="col-lg-6 col-lg-offset-3 col-xs-12" style={{}}><h3 style={{color: "white", textAlign:"center"}}>United Nations Human Rights Council</h3></div>
+                <div className="col-lg-12 col-xs-12" style={{}}><h3 style={{color: "white", textAlign:"center"}}><b>United Nations Human Rights Council</b></h3></div>
                 <div className="col-lg-12 col-xs-12"><br></br><br></br></div>
-                <div style={{border: "thick solid black"}}>
-                <div className="col-lg-6 col-lg-offset-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black",background: "url('../images/com/HRCbgmFlip.png')"}}>
-                <h3 style={{color:"white",textAlign:"center"}}>AGENDA:</h3>
+                <div className="col-lg-6 col-lg-offset-3 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/HRCbgmFlip.png')"}}>
+                <h3 style={{color:"white",textAlign:"center"}}><b>AGENDA:</b></h3>
                 <p style={{color: "white", textAlign: "center", fontSize:"20px"}}>
                     "UNHRC Special Session :<br></br> Human Rights situation in occupied Palestinian territory, including east Jerusalem and the Syrian Golan."
                 </p>
                 <br></br></div>
-                </div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
 
-                <div style={{border: "thick solid black"}}>
-                <div className="col-lg-12 col-xs-12" style={{border: "thick solid black", backgroundColor: "black",background: "url('../images/com/HRCbgmFlip.png')"}}>
+                <div className="col-lg-12 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/HRCbgmFlip.png')"}}>
                 <p style={{color: "white"}}><br></br>
                 
                 “A right delayed is a right denied.”<br></br>-Martin Luther King Jr<br></br><br></br>
@@ -124,24 +111,17 @@ The UNHRC is one of the six councils being simulated at SSN MUN this year.<br></
                 
                 </p>
                 <br></br></div>
-                </div>
 
-                <div style={{border: "thick solid black"}}>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 style={{color: "white", textAlign:"center"}}>Director</h4><Image src="../images/unhrc/1.png" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#631D59"}}><h4 style={{color: "white", textAlign:"center"}}><b>Director</b></h4><Image src="../images/unhrc/1.png" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Ishita M</p> <br></br></div>
-                </div>
                 <div className="col-xs-1"><br></br><br></br></div>
-                <div style={{border: "thick solid black"}}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 style={{color: "white", textAlign:"center"}}>Chair-person</h4><Image src="../images/unhrc/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#631D59"}}><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/unhrc/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Adiya Kumar</p><br></br></div>
-                </div>
                 <div className="col-xs-1"><br></br><br></br></div>
 
-                <div style={{border: "thick solid black"}}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 style={{color: "white", textAlign:"center"}}>Vice Chair-person</h4><Image src="../images/unhrc/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#631D59"}}><h4 style={{color: "white", textAlign:"center"}}><b>Vice Chair-person</b></h4><Image src="../images/unhrc/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Eassa Salim</p><br></br></div>
-                </div>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
                 
 
@@ -149,19 +129,19 @@ The UNHRC is one of the six councils being simulated at SSN MUN this year.<br></
                 <div><br></br><br></br></div>
 
                 </ImageBackground>
-                <div style={{backgroundColor: "black" }}><br></br><br></br><br></br></div>
-      <View
-  style={{
-    borderBottomColor: 'grey',
-    borderBottomWidth: 1,
-  }}
+                <View
+style={{
+borderBottomColor: 'grey',
+borderBottomWidth: 4,
+}}
 />
-      <div style={{backgroundColor: "grey", color:"white", textAlign: "center", fontSize: "25px" }}><br></br>Made with:
-      <br></br>
-      <Image src="../images/reactimg.png" style={{position: "relative", width: "70px", height: "70px"}}/>
-      <Image src="../images/addimg.png" style={{position: "relative", width: "30px", height: "30px"}}/>
-      <Image src="../images/heartimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>
-      </div>
+<div style={{backgroundColor: "#cccccc", color:"black", textAlign: "center", fontSize: "15px" }}><b>Made with:</b>
+    <br></br>
+    <Image src="../images/reactimg.png" style={{position: "relative", width: "60px", height: "60px"}}/>
+          <b>and</b> {/*<Image src="images/addimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>*/}
+    <Image src="../images/heartimg.png" style={{position: "relative", width: "45px", height: "45px"}}/>
+    <br></br>
+</div>
             </View>
         )
 

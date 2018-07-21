@@ -7,8 +7,6 @@ import './Home.css';
 import ScrollUpButton from 'react-scroll-up-button';
 //import AwesomeButton from 'react-native-really-awesome-button';
 
-let className = 'bgimg';
-
 export default class Home extends Component {
   constructor(props) {
     super(props);
@@ -37,7 +35,7 @@ export default class Home extends Component {
         <ScrollUpButton/>
                   <div><br></br><br></br></div>      
                   <Grid id="whole">
-                  <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h2 style={{color: "black", textAlign: "center"}}>Letter from the Secretary General</h2><p style={{color: "black"}}>
+                  <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h3 style={{color: "black", textAlign: "center"}}><b>Letter from the<br></br> Secretary General</b></h3><p style={{color: "black"}}>
                   <br></br>
                   <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                   <br></br>
@@ -74,7 +72,7 @@ export default class Home extends Component {
       borderBottomWidth: 3,
     }}
   />
-        <div style={{backgroundColor: "#cccccc", color:"black", textAlign: "center", fontSize: "15px" }}>Made with:
+        <div style={{backgroundColor: "#cccccc", color:"black", textAlign: "center", fontSize: "15px" }}><b>Made with:</b>
         <br></br>
         <Image src="./images/reactimg.png" style={{position: "relative", width: "60px", height: "60px"}}/>
               <b>and</b> {/*<Image src="images/addimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>*/}
@@ -94,7 +92,6 @@ export default class Home extends Component {
     
                <ImageBackground id="idkwhy2"
               resizeMode= "repeat"
-              className = {className}
               source = {{uri: 'images/hd2flip.jpg'}}
             position="relative"
             style={{width: '100%',marginTop:"-0.3em", position:'relative'}} >
@@ -108,9 +105,9 @@ export default class Home extends Component {
           <ScrollUpButton/>
                     <div><br></br><br></br></div>      
                     <Grid id="whole">
-                    <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h2 style={{color: "black", textAlign: "center"}}>Letter from the Secretary General</h2><p style={{color: "black"}}>
+                    <div className="col-lg-12" style={{border: "medium solid black", background: "url('images/hd2flipsmall.jpg')"}}><h2 style={{color: "black", textAlign: "center"}}><b>Letter from the Secretary General</b></h2><p style={{color: "black"}}>
                     <div className="col-lg-6 col-lg-offset-3">
-                    <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                    <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", border: "medium solid black", height: "100%"}}/>
                     </div>
                     <div className="col-lg-12">
                     <br></br><br></br>                                       
@@ -127,7 +124,7 @@ export default class Home extends Component {
     Yours Sincerely<br></br>
     Anand Subramanian<br></br>
     Secretary General<br></br>
-    SSN MUN 2018<br></br>
+    SSN MUN 2018<br></br><br></br>
                     
                     </div>   
                     
