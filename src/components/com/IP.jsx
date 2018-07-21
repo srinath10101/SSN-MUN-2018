@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {View, ImageBackground, Text} from 'react-native';
 import { Image,Grid } from 'react-bootstrap';
 import ScrollUpButton from 'react-scroll-up-button';
+import WhenInView from '../WhenInView/WhenInView';
+import RevealP from 'react-reveal';
 
 export default class ip extends Component {
     constructor(props) {
@@ -41,15 +43,32 @@ The IP also consists of photographers, a much needed aspect for its functioning,
                 
 
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><b><h4 style={{color: "white", textAlign:"center"}}>Head of IP</h4></b><Image src="../images/ip/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Keerthishree Raghu</p> <br></br></div>
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-xs-1"><br></br><br></br></div>
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><b><h4 style={{color: "white", textAlign:"center"}}>Editor in Chief</h4></b><Image src="../images/ip/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Tulica Bhattacharya</p><br></br></div>
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-xs-1"><br></br><br></br></div>
-
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><b><h4 style={{color: "white", textAlign:"center"}}>Head of photography</h4></b><Image src="../images/ip/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Keerthivasan</p><br></br></div>
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
                 
 

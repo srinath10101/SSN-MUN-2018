@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {View, ImageBackground, Text} from 'react-native';
 import { Image,Grid } from 'react-bootstrap';
-//import './DISEC.css';
+import WhenInView from '../WhenInView/WhenInView';
+import RevealP from 'react-reveal';
 import ScrollUpButton from 'react-scroll-up-button';
 
 export default class msc extends Component {
@@ -33,7 +34,9 @@ export default class msc extends Component {
             </p>
             <br></br></div>
             <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
-
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
             <div className="col-lg-12 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/MSC2flipped.png')"}}>
             <p style={{color: "black"}}><br></br>
             It brings me immense pride to introduce to you all the flagship committee of SSNMUN 2018: The Munich Security Conference.<br></br><br></br>
@@ -49,19 +52,38 @@ If you're someone who enjoys power, character simulation and deliberation slight
 A Munich Security Report has said: 'The World is on the brink'.<br></br>
 It's up to you to decide if that's true!<br></br>
             </p>
-            <br></br></div>
+            <br></br></div></RevealP>
+                    }
+                </WhenInView>
 
             <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
             <div className="col-lg-3 col-xs-12" style={{border: "thick solid black",backgroundColor: "#C64E3D"}}><h4 style={{color: "black", textAlign:"center"}}><b>Director</b></h4><Image src="../images/msc/1.png" style={{position: "relative", width: "100%", height: "100%"}}/>
             <p style={{color:"black", textAlign: "center"}}><br></br>Shashank R</p> <br></br></div>
+            </RevealP>
+                    }
+                </WhenInView>
             <div className="col-xs-1"><br></br><br></br></div>
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
             <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#C64E3D"}}><h4 style={{color: "black", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/msc/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
             <p style={{color:"black", textAlign: "center"}}><br></br>Krishnakumar R</p><br></br></div>
+            </RevealP>
+                    }
+                </WhenInView>
             <div className="col-xs-1"><br></br><br></br></div>
-
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
             <div className="col-lg-3 col-xs-12" style={{border: "thick solid black",backgroundColor: "#C64E3D"}}><h4 style={{color: "black", textAlign:"center"}}><b>Vice Chair-person</b></h4><Image src="../images/msc/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
             <p style={{color:"black", textAlign: "center"}}><br></br>Jaivignesh Jayakumar</p><br></br></div>
             <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
+            </RevealP>
+                    }
+                </WhenInView>
             
 
             </Grid>                

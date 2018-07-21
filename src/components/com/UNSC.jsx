@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {View, ImageBackground, Text} from 'react-native';
 import { Image,Grid } from 'react-bootstrap';
-//import './DISEC.css';
+import WhenInView from '../WhenInView/WhenInView';
+import RevealP from 'react-reveal';
 import ScrollUpButton from 'react-scroll-up-button';
 
 export default class unsc extends Component {
@@ -33,7 +34,9 @@ export default class unsc extends Component {
                 </p>
                 <br></br></div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
-
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
                 <div className="col-lg-12 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/UNSCbgmFlip.png')"}}>
                 <p style={{color: "black"}}><br></br>
                 Introducing the second council to be simulated at SSNMUN 2018, the United Nations Security Council.<br></br><br></br>
@@ -45,17 +48,36 @@ It must be true if your friendly neighbourhood Russian strongman said it. The Un
 Displaying diplomacy and decisiveness in times of crisis is the hallmark of a good SC delegate. You know who you are, you know where to be. Stay tuned for more updates.<br></br>
                 </p>
                 <br></br></div>
-
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#6e9ada"}}><h4 style={{color: "black", textAlign:"center"}}><b>Director</b></h4><Image src="../images/unsc/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"black", textAlign: "center"}}><br></br>Srinivasan</p> <br></br></div>
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-xs-1"><br></br><br></br></div>
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#6e9ada"}}><h4 style={{color: "black", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/unsc/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"black", textAlign: "center"}}><br></br>Ayush R</p><br></br></div>
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-xs-1"><br></br><br></br></div>
-
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#6e9ada"}}><h4 style={{color: "black", textAlign:"center"}}><b>Vice Chair-person</b></h4><Image src="../images/unsc/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"black", textAlign: "center"}}><br></br>Gowtham Srinivas</p><br></br></div>
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
                 
 

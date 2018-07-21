@@ -105,22 +105,24 @@ export default class Home extends Component {
                     <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", border: "medium solid black", height: "100%"}}/>
                     </div>
                     <div className="col-lg-12">
-                    <br></br><br></br>                                       
+                    <br></br><br></br>
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>                                      
                     Ladies and Gentlemen,
-    <br></br><br></br>
+    <br></br>
     On behalf of the entire Organizing Committee, it gives me great pleasure to welcome you to SSN Model United Nations, 2018.<br></br>
-    <br></br>
     Ever since its inception in 2014, SSNMUN has been renown for the standards that it has established in the MUN circuit in terms of the quality of the participation of delegates and the Executive Board members who have been a part of our conference. This conference has always sought to build upon and surpass  the foundations and standards that we have established with each subsequent edition and we’re confident this edition will be no different. <br></br>
-    <br></br>
     This year, with a total of 6 committees, we look forward to hosting a conference of exceptional quality, and ensure that all attendees take away something of value, enriching all stakeholders in the process as well as making it a conference to remember.<br></br>
-    <br></br>
     Henceforth, I cordially invite you to SSN MUN 2018, to experience three days of engaging debate and deliberation.
-    <br></br><br></br>
+    <br></br>
     Yours Sincerely<br></br>
     Anand Subramanian<br></br>
     Secretary General<br></br>
     SSN MUN 2018<br></br><br></br>
-                    
+    </RevealP>
+                    }
+                </WhenInView>
                     </div>   
                     
      </p></div>

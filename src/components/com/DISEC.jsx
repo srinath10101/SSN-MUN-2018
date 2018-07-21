@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {View, ImageBackground, Text} from 'react-native';
 import { Image,Grid } from 'react-bootstrap';
-//import './DISEC.css';
+import WhenInView from '../WhenInView/WhenInView';
+import RevealP from 'react-reveal';
 import ScrollUpButton from 'react-scroll-up-button';
 
 export default class disec extends Component {
@@ -33,7 +34,9 @@ export default class disec extends Component {
 
                 <br></br></div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
-
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
                 <div className="col-lg-12 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/DISECbgmFlip.png')"}}>
                 <p style={{color: "white"}}><br></br>
                 "War is a racket. It always has been... A few profit - and the many pay. But there is a way to stop it."<br></br>
@@ -47,17 +50,36 @@ All 193 member states of the UN have equal voting rights in the DISEC.<br></br><
 The UNGA DISEC is one of the six committees being simulated at SSN MUN this year.<br></br>
                 </p>
                 <br></br></div>
-
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black",backgroundColor: "#770623"}}><h4 style={{color: "white", textAlign:"center"}}><b>Director</b></h4><Image src="../images/disec/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Lohith Chiluka</p> <br></br></div>
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-xs-1"><br></br><br></br></div>
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black",backgroundColor: "#770623"}}><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/2.png" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Krishnakumar R</p><br></br></div>
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-xs-1"><br></br><br></br></div>
-
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#770623"}}><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Jaivignesh Jayakumar</p><br></br></div>
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
                 
 
