@@ -35,12 +35,48 @@ export default class committees extends Component {
         <ScrollUpButton />
                   <div><br></br><br></br></div>
             <Grid id="whole">
-            <div className="col-lg-4"><a href="/com/IP"><Image style={{position: "relative", cursor: "pointer"}} src="images/IP.jpg" className="secpic"/></a><br></br><br></br></div>
+            <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
+                          <div className="col-lg-4"><a href="/com/IP"><Image style={{position: "relative", cursor: "pointer"}} src="images/IP.jpg" className="secpic"/></a><br></br><br></br></div>
+                        </RevealP>
+                    }
+                  </WhenInView>
+            <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
             <div className="col-lg-4"><a href="/com/UNSC"><Image style={{position: "relative", cursor: "pointer"}} src="images/UNSC.jpg" className="secpic"/></a><br></br><br></br></div>
+            </RevealP>
+                    }
+                  </WhenInView>
+            <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
             <div className="col-lg-4"><a href="/com/DISEC"><Image style={{position: "relative", cursor: "pointer"}} src="images/DISEC.jpg" className="secpic"/></a><br></br><br></br></div>
+            </RevealP>
+                    }
+                  </WhenInView>
+            <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
             <div className="col-lg-4"><a href="/com/UNHRC"><Image style={{position: "relative", cursor: "pointer"}} src="images/UNHRC.jpg" className="secpic"/></a><br></br><br></br></div>
+            </RevealP>
+                    }
+                  </WhenInView>
+            <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
             <div className="col-lg-4"><a href="/com/MSC"><Image style={{position: "relative", cursor: "pointer"}} src="images/MSC.jpg" className="secpic"/></a><br></br><br></br></div>
+            </RevealP>
+                    }
+                  </WhenInView>
+            <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
             <div className="col-lg-4"><a href="/com/ESS"><Image style={{position: "relative", cursor: "pointer"}} src="images/ESS.jpg" className="secpic"/></a><br></br><br></br></div>
+            </RevealP>
+                    }
+                  </WhenInView>
             <div><br></br><br></br></div>
         </Grid>
         <View

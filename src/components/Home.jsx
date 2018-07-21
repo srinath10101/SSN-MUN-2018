@@ -35,7 +35,7 @@ export default class Home extends Component {
         <ScrollUpButton/>
                   <div><br></br><br></br></div>      
                   <Grid id="whole">
-                  <div className="col-lg-12" style={{border: "thin solid black", background: "url('images/hd2flipsmall.jpg')"}}><h3 style={{color: "black", textAlign: "center"}}><b>Letter from the<br></br> Secretary General</b></h3><p style={{color: "black"}}>
+                  <div className="col-lg-12" style={{border: "medium solid black", background: "url('images/hd2flipsmall.jpg')"}}><h3 style={{color: "black", textAlign: "center"}}><b>Letter from the<br></br> Secretary General</b></h3><p style={{color: "black"}}>
                   <br></br>
                   <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                   <br></br>
@@ -56,11 +56,6 @@ export default class Home extends Component {
   SSN MUN 2018<br></br>
    </p></div>
    <div className="col-lg-12"><br></br><br></br></div>
-        <div className="col-lg-6 col-lg-offset-3">
-        
-            
-
-        </div>
               </Grid>
               <div><br></br><br></br></div>
               
