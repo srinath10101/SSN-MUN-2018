@@ -28,10 +28,7 @@ class Sec extends Component {
 
             return(
                 <View>
-            <ImageBackground id="idkwhy2"
-        resizeMode = "repeat"
-        source={{uri: 'images/hd2flipped.jpg'}}
-        style={{width: '100%', height: '100%',  marginTop: "-1em"}} >
+            
             <Grid id="whole">
                 <br></br><br></br>
                 <div className="col-lg-12" style={{color: "black", textAlign: "center", fontSize: "20px", marginTop:"30%"}}><b>Meet The Team!</b><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br></div>
@@ -373,7 +370,7 @@ class Sec extends Component {
                 </div>
                 <ScrollUpButton />
             </Grid>
-            </ImageBackground>
+            
             <View
     style={{
       borderBottomColor: 'grey',
