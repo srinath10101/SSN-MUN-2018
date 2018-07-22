@@ -70,7 +70,7 @@ It's up to you to decide if that's true!<br></br>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
             <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#C64E3D"}}><h4 style={{color: "black", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/msc/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-            <p style={{color:"black", textAlign: "center"}}><br></br>Krishnakumar R</p><br></br></div>
+            <p style={{color:"black", textAlign: "center"}}><br></br>Aravind N</p><br></br></div>
             </RevealP>
                     }
                 </WhenInView>
@@ -149,7 +149,7 @@ It's up to you to decide if that's true!<br></br>
                 <p style={{color:"black", textAlign: "center"}}><br></br>Shashank R</p> <br></br></div>
                 <div className="col-xs-1"><br></br><br></br></div>
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#C64E3D"}}><h4 style={{color: "black", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/msc/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"black", textAlign: "center"}}><br></br>Krishnakumar R</p><br></br></div>
+                <p style={{color:"black", textAlign: "center"}}><br></br>Aravind N</p><br></br></div>
                 <div className="col-xs-1"><br></br><br></br></div>
 
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#C64E3D"}}><h4 style={{color: "black", textAlign:"center"}}><b>Vice Chair-person</b></h4><Image src="../images/msc/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
