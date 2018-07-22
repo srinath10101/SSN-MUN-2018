@@ -75,7 +75,7 @@ The UNGA DISEC is one of the six committees being simulated at SSN MUN this year
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#770623"}}><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#770623"}}><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/3.JPG" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Jaivignesh Jayakumar</p><br></br></div>
                 </RevealP>
                     }
