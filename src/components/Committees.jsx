@@ -112,7 +112,7 @@ export default class committees extends Component {
     
                <ImageBackground id="idkwhy2"
               resizeMode= "repeat"
-              source = {{uri: 'images/hd2flip.jpg'}}
+              source = {{uri: 'images/hd2flipped.jpg'}}
             position="relative"
             style={{width: '100%',marginTop:"-0.3em", position:'relative'}} >
                               <Image id="mainlogo" src="images/logo.jpg" id="mainlogo" className="header-image" style={ {position: "relative", height: "100%", width: "100%", marginTop: "3.5em"} } />

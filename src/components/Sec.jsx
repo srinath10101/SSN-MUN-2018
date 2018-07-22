@@ -8,6 +8,14 @@ import ScrollUpButton from 'react-scroll-up-button';
 
 class Sec extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = { 
+         checking:false
+      };
+        this.setbgimg = this.setbgimg.bind(this);
+    }
+
     setbgimg(){
         var screenwidth = window.screenwidth;
         if(screenwidth<768){
@@ -189,7 +197,7 @@ class Sec extends Component {
                 <View>
             <ImageBackground id="idkwhy2"
         resizeMode = "repeat"
-        source={{uri: 'images/hd2flipopred.jpg'}}
+        source={{uri: 'images/hd2flipped.jpg'}}
         style={{width: '100%', height: '100%',  marginTop: "-1em"}} >
             <Grid id="whole">
                 <br></br><br></br>

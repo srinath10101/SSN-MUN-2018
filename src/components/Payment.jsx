@@ -13,11 +13,11 @@ export default class Payment extends Component{
             <View>
                 <ImageBackground id="idkwhy2"
               resizeMode= "repeat"
-              source = {{uri: 'images/hd2flip.jpg'}}
+              source = {{uri: 'images/hd2flipped.jpg'}}
             position="relative"
             style={{width: '100%',marginTop:"-2em", position:'relative'}} >
                 <Grid>
-                <div className="col-lg-12 col-xs-12" style={{textAlign:"center", marginTop:"10em", marginBottom: "10em"}}><br></br><h4>The payment portal will open after delegates have been assigned committees and contries.<br></br> Please check again later.</h4></div>
+                <div className="col-lg-12 col-xs-12" style={{textAlign:"center", marginTop:"10em", marginBottom: "10em"}}><br></br><h3><b>The payment portal will open after delegates have been assigned committees and contries.<br></br> Please check again later.</b></h3></div>
                 </Grid>
                 </ImageBackground>
                 <View
