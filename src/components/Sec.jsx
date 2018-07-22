@@ -14,11 +14,14 @@ class Sec extends Component {
          checking:false
       };
         this.setbgimg = this.setbgimg.bind(this);
+        this.showmeme = this.showmeme.bind(this);
+
     }
         
-        //showmeme(){
-         //   window.open("./images/oc/thisis.jpg");
-        //}
+    showmeme(){
+        const url = "./images/oc/thisis.jpg";
+        window.open(url);
+    }
 
 
       setbgimg(){
@@ -327,7 +330,7 @@ class Sec extends Component {
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-xs-6 col-xs-offset-3" style={{textAlign:"center"}}><h3 style = {{color: "black"}}><b>TECH AND DESIGN</b></h3></div>
+                <div className="col-xs-12" style={{textAlign:"center"}}><h3 style = {{color: "black"}}><b>TECH AND DESIGN</b></h3></div>
                 </RevealP>
                     }
                 </WhenInView>
@@ -348,14 +351,23 @@ class Sec extends Component {
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-xs-6 col-xs-offset-3" style={{textAlign:"center"}}>
+                <div className="col-xs-6" style={{textAlign:"center"}}>
                 <Image src="images/oc/tech design/me.jpg" className="secpic"/><br></br><br></br>Srinath V<br></br><br></br>
                 </div>
                 </RevealP>
                     }
                 </WhenInView>
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
+                <div className="col-xs-6" style={{textAlign:"center"}}>
+                <Image src="images/oc/del affairs/1.jpg" className="secpic"/><br></br><br></br>Rohit Midha<br></br><br></br>
+                </div>
+                </RevealP>
+                    }
+                </WhenInView>
 
-                <div className="col-lg-3">
+                <div className="col-xs-3">
                 <br></br><br></br></div>
                 <div className="col-lg-3">
                 <br></br><br></br></div>
@@ -701,7 +713,7 @@ class Sec extends Component {
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-6"> <Image src="images/vishal.jpg" className="secpic"/><br></br><br></br></div>
+                <div className="col-lg-6"> <Image src="images/vishal.jpg" className="secpic" /><br></br><br></br></div>
                 </RevealP>
                     }
                 </WhenInView>
@@ -715,13 +727,21 @@ class Sec extends Component {
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-lg-offset-2" style={{textAlign:"center"}}>
-                <Image src="images/oc/tech design/me.jpg" className="secpic"/><br></br><br></br>Srinath V<br></br><br></br>
+                <div className="col-lg-4 col-lg-offset-1" style={{textAlign:"center"}}>
+                <Image src="images/oc/tech design/me.jpg" className="secpic" /><br></br><br></br>Srinath V<br></br><br></br>
                 </div>
                 </RevealP>
                     }
                 </WhenInView>
-
+                <WhenInView>
+                    {({ isInView }) =>
+                        <RevealP hide={!isInView}>
+                <div className="col-lg-4 col-lg-offset-2" style={{textAlign:"center"}}>
+                <Image src="images/oc/del affairs/1.jpg" className="secpic"/><br></br><br></br>Rohit Midha<br></br><br></br>
+                </div>
+                </RevealP>
+                    }
+                </WhenInView>
                 <div className="col-lg-3">
                 <br></br><br></br></div>
                 <div className="col-lg-3">

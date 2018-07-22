@@ -96,7 +96,7 @@ The ESS convenes if the Security Council, because of lack of unanimity of the pe
 />
 <div style={{backgroundColor: "grey", color:"black", textAlign: "center", fontSize: "15px" }}><b>Made with:</b>      <br></br>
       <Image src="../images/reactimg.png" style={{position: "relative", width: "60px", height: "60px"}}/>
-      <Image src="../images/addimg.png" style={{position: "relative", width: "30px", height: "30px"}}/>
+      <b>and</b> {/*<Image src="images/addimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>*/}
       <Image src="../images/heartimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>
       </div>
       </View>
@@ -177,7 +177,7 @@ borderBottomWidth: 4,
 />
 <div style={{backgroundColor: "grey", color:"black", textAlign: "center", fontSize: "15px" }}><b>Made with:</b>      <br></br>
 <Image src="../images/reactimg.png" style={{position: "relative", width: "60px", height: "60px"}}/>
-<Image src="../images/addimg.png" style={{position: "relative", width: "30px", height: "30px"}}/>
+<b>and</b> {/*<Image src="images/addimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>*/}
 <Image src="../images/heartimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>
 </div>
       </View>
