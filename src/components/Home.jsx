@@ -34,7 +34,7 @@ export default class Home extends Component {
         <ScrollUpButton/>
                   <div><br></br><br></br></div>      
                   <Grid id="whole">
-                  <div className="col-lg-12" style={{border: "medium solid black", background: "url('images/hd2flipsmall.jpg')"}}><h3 style={{color: "black", textAlign: "center"}}><b>Letter from the<br></br> Secretary General</b></h3><p style={{color: "black"}}>
+                  <div className="col-lg-12" style={{border: "medium solid black", background: "url('images/hd2flipped.jpg')"}}><h3 style={{color: "black", textAlign: "center"}}><b>Letter from the<br></br> Secretary General</b></h3><p style={{color: "black"}}>
                   <br></br>
                   <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
                   <WhenInView>
@@ -105,7 +105,7 @@ export default class Home extends Component {
           <ScrollUpButton/>
                     <div><br></br><br></br></div>      
                     <Grid id="whole">
-                    <div className="col-lg-12" style={{border: "medium solid black", background: "url('images/hd2flipsmall.jpg')"}}><h2 style={{color: "black", textAlign: "center"}}><b>Letter from the Secretary General</b></h2><p style={{color: "black"}}>
+                    <div className="col-lg-12" style={{border: "medium solid black", background: "url('images/hd2flipped.jpg')"}}><h2 style={{color: "black", textAlign: "center"}}><b>Letter from the Secretary General</b></h2><p style={{color: "black"}}>
                     <div className="col-lg-6 col-lg-offset-3">
                     <Image src="./images/anandhomepage.jpg" style={{position: "relative", width: "100%", border: "medium solid black", height: "100%"}}/>
                     </div>
