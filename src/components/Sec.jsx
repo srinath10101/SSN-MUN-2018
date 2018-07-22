@@ -103,13 +103,7 @@ class Sec extends Component {
                     }
                 </WhenInView>
                 <div className="col-xs-12"><br></br></div>
-                <WhenInView>
-                    {({ isInView }) =>
-                        <RevealP hide={!isInView}>
-                <div className="col-lg-12" style={{textAlign:"center"}}><h3 style = {{color: "black"}}><b>FINANCE</b></h3></div>
-                </RevealP>
-                    }
-                </WhenInView>
+                <div className="col-xs-6 col-xs-offset-3" style={{textAlign:"center"}}><h3 style = {{color: "black"}}><b>FINANCE</b></h3></div>
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
