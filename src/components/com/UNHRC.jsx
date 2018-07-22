@@ -56,7 +56,7 @@ The UNHRC is one of the six councils being simulated at SSN MUN this year.<br></
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#631D59"}}><h4 style={{color: "white", textAlign:"center"}}><b>Director</b></h4><Image src="../images/unhrc/1.png" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#631D59"}}><h4 style={{color: "white", textAlign:"center"}}><b>Director</b></h4><Image src="../images/unhrc/1.PNG" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Ishita M</p> <br></br></div>
                 </RevealP>
                     }
@@ -135,7 +135,7 @@ The UNHRC is one of the six councils being simulated at SSN MUN this year.<br></
                 <br></br></div>
 
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#631D59"}}><h4 style={{color: "white", textAlign:"center"}}><b>Director</b></h4><Image src="../images/unhrc/1.png" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#631D59"}}><h4 style={{color: "white", textAlign:"center"}}><b>Director</b></h4><Image src="../images/unhrc/1.PNG" style={{position: "relative", width: "100%", height: "100%"}}/>
                 <p style={{color:"white", textAlign: "center"}}><br></br>Ishita M</p> <br></br></div>
                 <div className="col-xs-1"><br></br><br></br></div>
                 <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#631D59"}}><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/unhrc/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
