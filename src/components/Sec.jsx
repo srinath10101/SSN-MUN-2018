@@ -329,6 +329,7 @@ class Sec extends Component {
                 </RevealP>
                     }
                 </WhenInView>
+                <div className="col-xs-12"><br></br><br></br></div>
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
