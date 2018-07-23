@@ -236,7 +236,7 @@ class Sec extends Component {
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
                 <div className="col-xs-6" style={{textAlign:"center"}}>
-                <Image src="images/oc/hospitality/4.jpg" className="secpic2"/><br></br><br></br>Shwetha Madhavan<br></br><br></br>
+                <Image src="images/oc/hospitality/4.jpg" className="secpic5"/><br></br><br></br>Shwetha Madhavan<br></br><br></br>
                 </div>
                 </RevealP>
                     }
@@ -359,7 +359,7 @@ class Sec extends Component {
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
                 <div className="col-xs-6" style={{textAlign:"center"}}>
-                <Image src="images/oc/tech design/me.jpg" className="secpic2" onClick={() => this.showmeme()}/><br></br><br></br>Srinath V<br></br><br></br>
+                <Image src="images/oc/tech design/me.jpg" className="secpicmexs" onClick={() => this.showmeme()}/><br></br><br></br>Srinath V<br></br><br></br>
                 </div>
                 </RevealP>
                     }
@@ -735,7 +735,7 @@ class Sec extends Component {
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
                 <div className="col-lg-4 col-lg-offset-1" style={{textAlign:"center"}}>
-                <Image src="images/oc/tech design/me.jpg" className="secpic3" onClick={() => this.showmeme()} /><br></br><br></br>Srinath V<br></br><br></br>
+                <Image src="images/oc/tech design/me.jpg" className="secpicmelg" onClick={() => this.showmeme()} /><br></br><br></br>Srinath V<br></br><br></br>
                 </div>
                 </RevealP>
                     }
