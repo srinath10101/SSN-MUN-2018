@@ -258,7 +258,7 @@ class Sec extends Component {
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
                 
-                <div className="col-lg-12" style={{textAlign:"center"}}><h3 style = {{color: "black"}}><b>SPONSORSHIP</b></h3></div>
+                <div className="col-xs-12 col-sm-12 col-md-12" style={{textAlign:"center"}}><h3 style = {{color: "black"}}><b>SPONSORSHIP</b></h3></div>
                 </RevealP>
                     }
                 </WhenInView>
