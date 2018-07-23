@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "create-react-class": "^15.6.3",
     "react": "^16.4.0",
     "react-art": "16.4.0",
     "react-bootstrap": "^0.32.1",
