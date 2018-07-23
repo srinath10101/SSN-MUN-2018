@@ -43,7 +43,7 @@ class Sec extends Component {
                         <div className="col-lg-12">
                         <div><Image src="images/gana.jpg" className="secpic"/></div><br></br></div>
                 </div>
-                <div className="col-xs-12"><br></br><br></br></div>
+                <div className="col-xs-12 col-sm-12 col-md-12"><br></br><br></br></div>
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
@@ -105,7 +105,7 @@ class Sec extends Component {
                 </RevealP>
                     }
                 </WhenInView>
-                <div className="col-xs-12"><br></br></div>
+                <div className="col-xs-12 col-sm-12 col-md-12"><br></br><br></br></div>
                 <div className="col-xs-6 col-xs-offset-3" style={{textAlign:"center"}}><h3 style = {{color: "black"}}><b>FINANCE</b></h3></div>
                 <WhenInView>
                     {({ isInView }) =>
@@ -124,7 +124,7 @@ class Sec extends Component {
                 </RevealP>
                     }
                 </WhenInView>
-                <div className="col-xs-12"><br></br><br></br></div>
+                <div className="col-xs-12 col-sm-12 col-md-12"><br></br><br></br></div>
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
@@ -175,8 +175,8 @@ class Sec extends Component {
                 </RevealP>
                     }
                 </WhenInView>
-                <div className="col-xs-12"><br></br><br></br></div>
-                <WhenInView>
+                <div className="col-xs-12 col-sm-12 col-md-12"><br></br><br></br></div>
+                                <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
                 <div className="col-lg-12" style={{textAlign:"center"}}><h3 style = {{color: "black"}}><b>HOSPITALITY</b></h3></div>
@@ -253,7 +253,7 @@ class Sec extends Component {
                 </RevealP>
                     }
                 </WhenInView>
-                <div className="col-xs-12"><br></br><br></br></div>
+                <div className="col-xs-12 col-sm-12 col-md-12"><br></br><br></br></div>
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
@@ -326,8 +326,8 @@ class Sec extends Component {
                 </RevealP>
                     }
                 </WhenInView>
-                <div className="col-xs-12"><br></br><br></br></div>
-                <WhenInView>
+                <div className="col-xs-12 col-sm-12 col-md-12"><br></br><br></br></div>
+                               <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
                 <div className="col-xs-12" style={{textAlign:"center"}}><h3 style = {{color: "black"}}><b>TECH AND DESIGN</b></h3></div>
