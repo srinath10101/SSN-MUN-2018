@@ -11,7 +11,7 @@ export default class Applications extends Component{
 
       render(){
             var screenheight = window.innerHeight;
-            screenheight = screenheight + "px";
+            screenheight = (screenheight) + "px";
           return(
 
               <View style={{width:"100%", height: screenheight}}><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScfNCM7EDtACvYizbbWASd1YQVnGLDipdjoyFRpmQhPoYHluA/viewform?embedded=true" width="100%" height="100%" style={{marginTop: "3.5em"}} frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
@@ -27,7 +27,6 @@ export default class Applications extends Component{
         <Image src="./images/reactimg.png" style={{position: "relative", width: "60px", height: "60px"}}/>
               <b>and</b> {/*<Image src="images/addimg.png" style={{position: "relative", width: "50px", height: "50px"}}/>*/}
         <Image src="images/heartimg.png" style={{position: "relative", width: "45px", height: "45px"}}/>
-        <br></br>
   </div>
               </View>
 

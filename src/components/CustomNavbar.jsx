@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+  import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, NavDropdown} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import {View, Linking} from 'react-native';
+import {View, Linking, Text, Image} from 'react-native';
 import './CustomNavbar.css'
 
 export default class CustomNavbar extends Component {
@@ -11,6 +11,10 @@ export default class CustomNavbar extends Component {
       <Navbar fixedTop default collapseOnSelect>
         <Navbar.Header>
           <Navbar.Toggle />
+        <Navbar.Text>
+            <b style={{marginLeft: "3em", color: "black", fontFamily: "Arial, Helvetica"}}>SSN MUN 2018</b>
+            </Navbar.Text>
+
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
