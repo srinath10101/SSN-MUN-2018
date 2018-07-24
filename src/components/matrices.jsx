@@ -22,10 +22,10 @@ export default class matrices extends Component{
         var screenwidth = window.innerWidth;
         if(screenwidth<768){
           return(
-            <View style={{ background:"url('images/hd2flipped.jpg')"}}>
+            <View style={{ }}>
                 
             <Grid>            
-              <iframe src="https://drive.google.com/embeddedfolderview?id=1gSNPfBlGsw4IWIuEJuRFLcKYtGCrulR5#grid" width="100%" height="100%" style={{marginTop: "3.5em", color: "black",border: "thick solid black", marginTop: "5em", height: "500px", backgroundColor: "#CAC8C5" }} frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+              <iframe src="https://drive.google.com/embeddedfolderview?id=1gSNPfBlGsw4IWIuEJuRFLcKYtGCrulR5#grid" width="100%" height="100%" style={{marginTop: "3.5em", color: "black",border: "thick solid black", marginTop: "5em", height: "500px", background:"url('images/hd2flipped.jpg')"}} frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
               </Grid>          
               <br></br><br></br><br></br><br></br>
                 <View
