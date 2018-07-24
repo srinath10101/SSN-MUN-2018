@@ -6,13 +6,15 @@ import WhenInView from './WhenInView/WhenInView';
 import RevealP from 'react-reveal';
 import ScrollUpButton from 'react-scroll-up-button';
 
+
 export default class Applications extends Component{
 
       render(){
-
+            var screenheight = window.innerHeight;
+            screenheight = screenheight + "px";
           return(
 
-              <View><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScfNCM7EDtACvYizbbWASd1YQVnGLDipdjoyFRpmQhPoYHluA/viewform?embedded=true" width="100%" height="750px" style={{marginTop: "3.5em"}} frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+              <View style={{width:"100%", height: screenheight}}><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScfNCM7EDtACvYizbbWASd1YQVnGLDipdjoyFRpmQhPoYHluA/viewform?embedded=true" width="100%" height="100%" style={{marginTop: "3.5em"}} frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                   
                   <View
     style={{
