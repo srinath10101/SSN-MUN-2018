@@ -27,7 +27,6 @@ export default class matrices extends Component{
             <Grid>            
               <iframe src="https://drive.google.com/embeddedfolderview?id=1gSNPfBlGsw4IWIuEJuRFLcKYtGCrulR5#grid" width="100%" height="100%" style={{marginTop: "3.5em", color: "black",border: "thick solid black", marginTop: "5em", height: "500px", backgroundColor: "#CAC8C5" }} frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
               </Grid>          
-              <br></br><br></br><br></br><br></br>
                 <View
   style={{
     borderBottomColor: 'grey',
