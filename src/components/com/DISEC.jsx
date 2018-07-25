@@ -129,7 +129,7 @@ The UNGA DISEC is one of the six committees being simulated at SSN MUN this year
 -Smedley Butler</p><br></br><br></br>
 <p style={{color:"white"}} id="letter">
 
-Presenting to you the first committee of SSN MUN 2018 - The UNGA DISEC.<br></br><br></br>
+Presenting to you the first committee of SSN MUN 2018 - The UNGA DISEC.<br></br>
 
 The first committee of the General Assembly, the UNGA DISEC is concerned with disarmament, global threats to peace and other related international security questions. It considers all disarmament and international security matters within the scope of the Charter or relating to the powers and functions of any other organ of the United Nations.<br></br>
 All 193 member states of the UN have equal voting rights in the DISEC.<br></br><br></br>
