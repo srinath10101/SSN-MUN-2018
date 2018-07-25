@@ -4,6 +4,7 @@ import { Image,Grid } from 'react-bootstrap';
 import WhenInView from '../WhenInView/WhenInView';
 import RevealP from 'react-reveal';
 import ScrollUpButton from 'react-scroll-up-button';
+import './DISEC.css';
 
 export default class disec extends Component {
     constructor(props) {
@@ -24,11 +25,11 @@ export default class disec extends Component {
                 <ScrollUpButton />
                 <div><br></br></div>
                 <Grid>
-                <div className="col-lg-12 col-xs-12" style={{textAlign: "center"}}><h3 style={{color: "black", textAlign:"center"}}><b>Disarmament and International Security Council</b></h3></div>
+                <div className="col-lg-12 col-xs-12" style={{textAlign: "center"}}><h3 id="heading" style={{color: "black", textAlign:"center"}}><b>Disarmament and International Security Council</b></h3></div>
                 <div className="col-lg-12 col-xs-12"><br></br><br></br></div>
                 <div className="col-lg-6 col-lg-offset-3 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/DISECbgmFlip.png')"}}>
-                <h3 style={{color:"white",textAlign:"center"}}><b>AGENDA:</b></h3>
-                <p style={{color: "white", textAlign: "center", fontSize:"20px"}}>
+                <h3 style={{color:"white",textAlign:"center"}} id="heading"><b>AGENDA:</b></h3>
+                <p style={{color: "white", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "Tackling the growing threat of nuclear terrorism"
                 </p>
 
@@ -38,7 +39,7 @@ export default class disec extends Component {
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
                 <div className="col-lg-12 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/DISECbgmFlip.png')"}}>
-                <p style={{color: "white"}}><br></br>
+                <p style={{color: "white"}} id="letter"><br></br>
                 "War is a racket. It always has been... A few profit - and the many pay. But there is a way to stop it."<br></br>
 -Smedley Butler<br></br><br></br>
 
@@ -57,8 +58,8 @@ The UNGA DISEC is one of the six committees being simulated at SSN MUN this year
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black",backgroundColor: "#770623"}}><h4 style={{color: "white", textAlign:"center"}}><b>Director</b></h4><Image src="../images/disec/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Lohith Chiluka</p> <br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black",backgroundColor: "#770623"}} id="heading"><h4 style={{color: "white", textAlign:"center"}}><b>Director</b></h4><Image src="../images/disec/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Lohith Chiluka</p> <br></br></div>
                 </RevealP>
                     }
                 </WhenInView>
@@ -66,8 +67,8 @@ The UNGA DISEC is one of the six committees being simulated at SSN MUN this year
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black",backgroundColor: "#770623"}}><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/2.png" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Krishnakumar R</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black",backgroundColor: "#770623"}} id="heading"><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/2.png" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Krishnakumar R</p><br></br></div>
                 </RevealP>
                     }
                 </WhenInView>
@@ -75,8 +76,8 @@ The UNGA DISEC is one of the six committees being simulated at SSN MUN this year
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#770623"}}><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/3.JPG" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Jaivignesh Jayakumar</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#770623"}}><h4 id="heading" style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/3.JPG" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Jaivignesh Jayakumar</p><br></br></div>
                 </RevealP>
                     }
                 </WhenInView>
@@ -112,18 +113,18 @@ The UNGA DISEC is one of the six committees being simulated at SSN MUN this year
                 <ScrollUpButton />
                 <div><br></br></div>
                 <Grid>
-                <div className="col-lg-12 col-xs-12" style={{textAlign:"center"}}><h3 style={{color: "white", textAlign:"center"}}><b>Disarmament and International Security Council</b></h3></div>
+                <div className="col-lg-12 col-xs-12" style={{textAlign:"center"}}><h3 id="heading" style={{color: "white", textAlign:"center"}}><b>Disarmament and International Security Council</b></h3></div>
                 <div className="col-lg-12 col-xs-12"><br></br><br></br></div>
                 <div className="col-lg-6 col-lg-offset-3 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/DISECbgmFlip.png')"}}>
-                <h3 style={{color:"white",textAlign:"center"}}><b>AGENDA:</b></h3>
-                <p style={{color: "white", textAlign: "center", fontSize:"20px"}}>
+                <h3 style={{color:"white",textAlign:"center"}} id="heading"><b>AGENDA:</b></h3>
+                <p style={{color: "white", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "Tackling the growing threat of nuclear terrorism"
                 </p>
                 <br></br></div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
 
                 <div className="col-lg-12 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/DISECbgmFlip.png')"}}>
-                <p style={{color: "white"}}><br></br>
+                <p style={{color: "white"}} id="letter" ><br></br>
                 "War is a racket. It always has been... A few profit - and the many pay. But there is a way to stop it."<br></br>
 -Smedley Butler<br></br><br></br>
 
@@ -136,16 +137,16 @@ The UNGA DISEC is one of the six committees being simulated at SSN MUN this year
                 </p>
                 <br></br></div>
 
-                <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#770623"}}><h4 style={{color: "white", textAlign:"center"}}><b>Director</b></h4><Image src="../images/disec/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Lohith Chiluka</p> <br></br></div>
+                <div className="col-lg-12 col-xs-1" ><br></br><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#770623"}}><h4 id="heading" style={{color: "white", textAlign:"center"}}><b>Director</b></h4><Image src="../images/disec/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Lohith Chiluka</p> <br></br></div>
                 <div className="col-xs-1"><br></br><br></br></div>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#770623"}}><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/2.png" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Krishnakumar R</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#770623"}}><h4 id="heading" style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/2.png" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Krishnakumar R</p><br></br></div>
                 <div className="col-xs-1"><br></br><br></br></div>
 
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#770623"}}><h4 style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/3.JPG" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Jaivignesh Jayakumar</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#770623"}}><h4 id="heading" style={{color: "white", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/disec/3.JPG" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Jaivignesh Jayakumar</p><br></br></div>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
                 
 

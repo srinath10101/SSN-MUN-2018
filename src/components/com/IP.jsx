@@ -4,6 +4,7 @@ import { Image,Grid } from 'react-bootstrap';
 import ScrollUpButton from 'react-scroll-up-button';
 import WhenInView from '../WhenInView/WhenInView';
 import RevealP from 'react-reveal';
+import './DISEC.css';
 
 export default class ip extends Component {
     constructor(props) {
@@ -23,14 +24,15 @@ export default class ip extends Component {
             <View style={{marginTop: "4em"}}>
                 <ScrollUpButton />
                 <Grid>
-                <div className="col-lg-6 col-lg-offset-3 col-xs-12"><h2 style={{color: "black", textAlign:"center"}}><b>International Press</b></h2></div>
+                <div className="col-lg-6 col-lg-offset-3 col-xs-12"><h2 style={{color: "black", textAlign:"center"}} id="heading"><b>International Press</b></h2></div>
                 <div className="col-lg-12 col-xs-12"><br></br><br></br></div>
 
                 <div className="col-lg-12 col-xs-12" style={{ background: "url('../images/com/IPbgmflipped.jpg')", border:"thick solid black"}}>
-                <p style={{color: "white"}}><br></br>
-                “I still believe that if your aim is to change the world,journalism is a more immediate short term weapon” <br></br>- Tom Stoppard<br></br><br></br>
-
-Ladies and Gentlemen,<br></br><br></br>
+                <p style={{color: "white"}} id="agenda"><br></br>
+                “I still believe that if your aim is to change the world, journalism is a more immediate short term weapon” <br></br>- Tom Stoppard<br></br><br></br>
+                </p>
+                <p style={{color: "white"}} id="letter">
+                Ladies and Gentlemen,<br></br><br></br>
 
 Presenting to you, the final committee of SSN MUN 2018 - The International Press.<br></br><br></br>
 
@@ -46,8 +48,8 @@ The IP also consists of photographers, a much needed aspect for its functioning,
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><b><h4 style={{color: "white", textAlign:"center"}}>Head of IP</h4></b><Image src="../images/ip/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Keerthishree Raghu</p> <br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}} id="heading"><b><h4 style={{color: "white", textAlign:"center"}}>Head of IP</h4></b><Image src="../images/ip/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Keerthishree Raghu</p> <br></br></div>
                 </RevealP>
                     }
                 </WhenInView>
@@ -55,8 +57,8 @@ The IP also consists of photographers, a much needed aspect for its functioning,
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><b><h4 style={{color: "white", textAlign:"center"}}>Editor in Chief</h4></b><Image src="../images/ip/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Tulica Bhattacharya</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}} id="heading"><b><h4 style={{color: "white", textAlign:"center"}}>Editor in Chief</h4></b><Image src="../images/ip/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Tulica Bhattacharya</p><br></br></div>
                 </RevealP>
                     }
                 </WhenInView>
@@ -64,8 +66,8 @@ The IP also consists of photographers, a much needed aspect for its functioning,
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><b><h4 style={{color: "white", textAlign:"center"}}>Head of photography</h4></b><Image src="../images/ip/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Keerthivasan</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}} id="heading"><b><h4 style={{color: "white", textAlign:"center"}}>Head of photography</h4></b><Image src="../images/ip/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Keerthivasan</p><br></br></div>
                 </RevealP>
                     }
                 </WhenInView>
@@ -101,13 +103,13 @@ The IP also consists of photographers, a much needed aspect for its functioning,
                 <ScrollUpButton />
                 <div><br></br><br></br></div>
                 <Grid>
-                <div className="col-lg-6 col-lg-offset-3 col-xs-12"><h3 style={{color: "white", textAlign:"center"}}>International Press</h3></div>
+                <div className="col-lg-6 col-lg-offset-3 col-xs-12"><h1 style={{color: "white", textAlign:"center"}} id="heading">International Press</h1></div>
                 <div className="col-lg-12 col-xs-12"><br></br><br></br></div>
 
                 <div className="col-lg-12 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/IPbgmflipped.jpg')"}}>
-                <p style={{color: "white"}}><br></br>
+                <p style={{color: "white"}} id="agenda"><br></br>
                 “I still believe that if your aim is to change the world,journalism is a more immediate short term weapon” <br></br>- Tom Stoppard<br></br><br></br>
-
+                    </p><p style={{color: "white"}} id="letter">
 Ladies and Gentlemen,<br></br><br></br>
 
 Presenting to you, the final committee of SSN MUN 2018 - The International Press.<br></br><br></br>
@@ -120,14 +122,14 @@ The IP also consists of photographers, a much needed aspect for its functioning,
                 <br></br></div>
 
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 style={{color: "white", textAlign:"center"}}>Head of IP</h4><Image src="../images/ip/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Keerthishree Raghu</p> <br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 id="heading" style={{color: "white", textAlign:"center"}}>Head of IP</h4><Image src="../images/ip/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Keerthishree Raghu</p> <br></br></div>
                 <div className="col-xs-1"><br></br><br></br></div>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 style={{color: "white", textAlign:"center"}}>Editor in Chief</h4><Image src="../images/ip/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Tulica Bhattacharya</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 id="heading" style={{color: "white", textAlign:"center"}}>Editor in Chief</h4><Image src="../images/ip/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Tulica Bhattacharya</p><br></br></div>
                 <div className="col-xs-1"><br></br><br></br></div>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 style={{color: "white", textAlign:"center"}}>Head of photography</h4><Image src="../images/ip/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"white", textAlign: "center"}}><br></br>Keerthivasan</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "black"}}><h4 id="heading" style={{color: "white", textAlign:"center"}}>Head of photography</h4><Image src="../images/ip/3.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"white", textAlign: "center"}} id="letter"><br></br>Keerthivasan</p><br></br></div>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
                 
 

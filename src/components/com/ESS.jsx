@@ -4,6 +4,7 @@ import { Image,Grid } from 'react-bootstrap';
 import WhenInView from '../WhenInView/WhenInView';
 import RevealP from 'react-reveal';
 import ScrollUpButton from 'react-scroll-up-button';
+import './DISEC.css';
 
 export default class ess extends Component {
 
@@ -28,13 +29,13 @@ export default class ess extends Component {
                 <View style={{marginTop:"3em"}}>
                 <ScrollUpButton />
                 <Grid>
-                <div className="col-lg-6 col-lg-offset-3 col-xs-12"><h2 style={{color: "black", textAlign:"center"}}><b><br></br>Emergency Special Session</b></h2></div>
+                <div className="col-lg-6 col-lg-offset-3 col-xs-12"><h2 style={{color: "black", textAlign:"center"}} id="heading"><b><br></br>Emergency Special Session</b></h2></div>
                 
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
 
                 <div className="col-lg-6 col-lg-offset-3 col-xs-12" style={{background: "url('../images/com/ESSflipped.png')", border: "thick solid black"}}>
-                <h3 style={{color:"black",textAlign:"center"}}><b>AGENDA:</b></h3>
-                <p style={{color: "black", textAlign: "center", fontSize:"20px"}}>
+                <h3 style={{color:"black",textAlign:"center"}} id="heading"><b>AGENDA:</b></h3>
+                <p style={{color: "black", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "The Suez Crisis"
                 </p>
                 <br></br></div>
@@ -43,10 +44,10 @@ export default class ess extends Component {
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
                 <div className="col-lg-12 col-xs-12" style={{background: "url('../images/com/ESSflipped.png')", border: "thick solid black"}}>
-                <p style={{color: "black"}}><br></br>
+                <p style={{color: "black"}} id="agenda"><br></br>
                 "If man does find the solution for world peace it will be the most revolutionary reversal of his record we have ever known."<br></br>
--George Marshall.<br></br><br></br>
-
+-George Marshall.</p><br></br><br></br>
+<p style={{color: "black"}} id="letter">
 Next up the 5th conference to be simulated at SSN MUN 2018, The Emergency Special Session or the ESS.<br></br>
 An Emergency Special Session is an unscheduled meeting of the United Nations General Assembly to make urgent recommendations on a particular issue. They are typically rare—a fact reflected in there being only 10 in the history of the United Nations.<br></br><br></br>
 
@@ -60,8 +61,8 @@ The ESS convenes if the Security Council, because of lack of unanimity of the pe
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid blue", backgroundColor: "#26969c"}}><h4 style={{color: "black", textAlign:"center"}}><b>Director</b></h4><Image src="../images/ess/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"black", textAlign: "center"}}><br></br>Tejas Bagri</p> <br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid blue", backgroundColor: "#26969c"}}><h4 id="heading" style={{color: "black", textAlign:"center"}}><b>Director</b></h4><Image src="../images/ess/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"black", textAlign: "center"}} id="letter"><br></br>Tejas Bagri</p> <br></br></div>
                 </RevealP>
                     }
                 </WhenInView>
@@ -69,8 +70,8 @@ The ESS convenes if the Security Council, because of lack of unanimity of the pe
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid blue", backgroundColor: "#26969c"}}><h4 style={{color: "black", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/ess/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"black", textAlign: "center"}}><br></br>Vaibhav K N</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid blue", backgroundColor: "#26969c"}}><h4 id="heading" style={{color: "black", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/ess/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"black", textAlign: "center"}} id="letter"><br></br>Vaibhav K N</p><br></br></div>
                 </RevealP>
                     }
                 </WhenInView>
@@ -78,8 +79,8 @@ The ESS convenes if the Security Council, because of lack of unanimity of the pe
                 <WhenInView>
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid blue", backgroundColor: "#26969c"}}><h4 style={{color: "black", textAlign:"center"}}><b>Vice Chair-person</b></h4><Image src="../images/ess/3.jpeg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"black", textAlign: "center"}}><br></br>Dayanidhi Krishna</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid blue", backgroundColor: "#26969c"}}><h4 id="heading" style={{color: "black", textAlign:"center"}}><b>Vice Chair-person</b></h4><Image src="../images/ess/3.jpeg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"black", textAlign: "center"}} id="letter"><br></br>Dayanidhi Krishna</p><br></br></div>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
                 </RevealP>
                     }
@@ -124,11 +125,11 @@ The ESS convenes if the Security Council, because of lack of unanimity of the pe
                 <ScrollUpButton />
                 <div><br></br></div>
                 <Grid>
-                <div className="col-lg-6 col-lg-offset-3 col-xs-12"><h2 style={{color: "white", textAlign:"center"}}><b>Emergency Special Session</b></h2></div>
+                <div className="col-lg-6 col-lg-offset-3 col-xs-12"><h2 style={{color: "white", textAlign:"center"}} id="heading"><b>Emergency Special Session</b></h2></div>
                 <div className="col-lg-12 col-xs-12"><br></br><br></br></div>
                 <div className="col-lg-6 col-lg-offset-3 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/ESSflipped.png')"}}>
-                <h3 style={{color:"black",textAlign:"center"}}><b>AGENDA:</b></h3>
-                <p style={{color: "black", textAlign: "center", fontSize:"20px"}}>
+                <h3 style={{color:"black",textAlign:"center"}} id="heading"><b>AGENDA:</b></h3>
+                <p style={{color: "black", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "The Suez Crisis"
                 </p>
                 <br></br></div>
@@ -138,10 +139,10 @@ The ESS convenes if the Security Council, because of lack of unanimity of the pe
                     {({ isInView }) =>
                         <RevealP hide={!isInView}>
                 <div className="col-lg-12 col-xs-12" style={{background: "url('../images/com/ESSflipped.png')", border: "thick solid black"}}>
-                <p style={{color: "black"}}><br></br>
+                <p style={{color: "black"}} id="agenda"><br></br>
                 "If man does find the solution for world peace it will be the most revolutionary reversal of his record we have ever known."<br></br>
--George Marshall.<br></br><br></br>
-
+-George Marshall.</p><br></br><br></br>
+<p style={{color: "black"}} id="letter">
 Next up the 5th conference to be simulated at SSN MUN 2018, The Emergency Special Session or the ESS.<br></br>
 An Emergency Special Session is an unscheduled meeting of the United Nations General Assembly to make urgent recommendations on a particular issue. They are typically rare—a fact reflected in there being only 10 in the history of the United Nations.<br></br><br></br>
 
@@ -152,15 +153,15 @@ The ESS convenes if the Security Council, because of lack of unanimity of the pe
                     }
                 </WhenInView>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#26969c"}}><h4 style={{color: "black", textAlign:"center"}}><b>Director</b></h4><Image src="../images/ess/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"black", textAlign: "center"}}><br></br>Tejas Bagri</p> <br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#26969c"}}><h4 id="heading" style={{color: "black", textAlign:"center"}}><b>Director</b></h4><Image src="../images/ess/1.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"black", textAlign: "center"}} id="letter"><br></br>Tejas Bagri</p> <br></br></div>
                 <div className="col-xs-1"><br></br><br></br></div>
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#26969c"}}><h4 style={{color: "black", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/ess/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"black", textAlign: "center"}}><br></br>Vaibhav K N</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#26969c"}}><h4 id="heading" style={{color: "black", textAlign:"center"}}><b>Chair-person</b></h4><Image src="../images/ess/2.jpg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"black", textAlign: "center"}} id="letter"><br></br>Vaibhav K N</p><br></br></div>
                 <div className="col-xs-1"><br></br><br></br></div>
 
-                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#26969c"}}><h4 style={{color: "black", textAlign:"center"}}><b>Vice Chair-person</b></h4><Image src="../images/ess/3.jpeg" style={{position: "relative", width: "100%", height: "100%"}}/>
-                <p style={{color:"black", textAlign: "center"}}><br></br>Dayanidhi Krishna</p><br></br></div>
+                <div className="col-lg-3 col-xs-12" style={{border: "thick solid black", backgroundColor: "#26969c"}}><h4 id="heading" style={{color: "black", textAlign:"center"}}><b>Vice Chair-person</b></h4><Image src="../images/ess/3.jpeg" style={{position: "relative", width: "100%", height: "100%"}}/>
+                <p style={{color:"black", textAlign: "center"}} id="letter"><br></br>Dayanidhi Krishna</p><br></br></div>
                 <div className="col-lg-12 col-xs-1"><br></br><br></br></div>
                 
 
