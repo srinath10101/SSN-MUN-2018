@@ -17,8 +17,32 @@
     
 }
 
+.secpicanamxs {
+    width: 100px;
+    border: thick solid black;
+    height: 130px;
+    position: relative;
+    
+}
+
 .secpic3 {
     width: 200px;
+    border: thick solid black;
+    height: 225px;
+    position: relative;
+    
+}
+
+.secpicanamlg {
+    width: 170px;
+    border: thick solid black;
+    height: 225px;
+    position: relative;
+    
+}
+
+.secpicanamlg {
+    width: 170px;
     border: thick solid black;
     height: 225px;
     position: relative;
