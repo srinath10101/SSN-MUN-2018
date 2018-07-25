@@ -1,3 +1,24 @@
+@font-face {
+  font-family: MetropolisBlack;
+  src : url('./fonts/Metropolis-Black.otf');
+}
+
+@font-face {
+  font-family: MetropolisBold;
+  src : url('./fonts/Metropolis-Bold.otf');
+}
+
+#letter {
+  font-family: MetropolisBlack, Helvetica,  Arial, sans-serif;
+  font-size: 15px;
+}
+
+
+#heading {
+  font-family: MetropolisBold, Helvetica,  Arial, sans-serif;
+}
+
+
 
 #head {
   margin-left: 2em;
