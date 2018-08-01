@@ -1,1 +1,3 @@
-SSN MUN 2018 website
+The SSN MUN 2018 Website is live!!!
+
+ssnmun.com
