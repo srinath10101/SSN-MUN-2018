@@ -15,7 +15,7 @@ export default class Payment extends Component{
     {
         var screenWidth = window.innerWidth;
       if( screenWidth<768){
-            window.location = "http://www.ssn.edu.in/apps/mun-payment-form/", '_blank';
+            window.location = "http://www.ssn.edu.in/apps/mun-payment-form/";
             return;
       }
       else{
