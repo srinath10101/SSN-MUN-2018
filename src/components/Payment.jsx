@@ -4,8 +4,21 @@ import {View} from 'react-native';
 
 
 export default class Payment extends Component{
-    
-    render() {
+    constructor(props) {
+        super(props);
+        this.state = { 
+         checking:false
+      };
+        this.setbgimg = this.setbgimg.bind(this);
+    }
+    setbgimg()
+    {
+        var screenWidth = window.innerWidth;
+      if( screenWidth<768){
+            window.open("http://www.ssn.edu.in/apps/mun-payment-form/", '_blank');
+            return;
+      }
+      else{
         var screenheight = window.innerHeight;
         screenheight = (screenheight) + "px";
 
@@ -31,6 +44,16 @@ export default class Payment extends Component{
             </View>
 
             );
+      }
+    }
+    render() {
+        return (
+            
+            <View>
+            {this.setbgimg()}
+                </View>
+            
+        )
     }
 
 }
