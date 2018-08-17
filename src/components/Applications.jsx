@@ -1,11 +1,7 @@
 import React, {Component} from 'react' 
-import { Image, Grid ,Row} from 'react-bootstrap';
-import {ScrollView, View, Text, ImageBackground} from 'react-native';
+import { Image} from 'react-bootstrap';
+import {View} from 'react-native';
 import './Applications.css';
-import WhenInView from './WhenInView/WhenInView';
-import RevealP from 'react-reveal';
-import ScrollUpButton from 'react-scroll-up-button';
-
 
 export default class Applications extends Component{
 

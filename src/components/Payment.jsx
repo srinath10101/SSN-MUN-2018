@@ -1,25 +1,20 @@
-import React, { Component } from 'react' 
-import { Image , Grid} from 'react-bootstrap';
-import {View, ImageBackground} from 'react-native';
-import WhenInView from './WhenInView/WhenInView';
-import RevealP from 'react-reveal';
-import './Home.css';
-import ScrollUpButton from 'react-scroll-up-button';
+import React, {Component} from 'react' 
+import { Image, Grid } from 'react-bootstrap';
+import {View} from 'react-native';
+
 
 export default class Payment extends Component{
-
+    
     render() {
-        return (
-            <View>
-                <ImageBackground id="idkwhy2"
-              resizeMode= "repeat"
-              source = {{uri: 'images/hd2flipped.jpg'}}
-            position="relative"
-            style={{width: '100%',marginTop:"-2em", position:'relative'}} >
+        var screenheight = window.innerHeight;
+        screenheight = (screenheight) + "px";
+
+            return(
+
+                <View style={{backgroundColor: "grey", scrollX:"enabled"}}>
                 <Grid>
-                <div className="col-lg-12 col-xs-12" style={{textAlign:"center", marginTop:"10em", marginBottom: "10em"}}><br></br><h3><b>The payment portal will open after delegates have been assigned committees and countries.<br></br> Please check again later.</b></h3></div>
+                <View style={{width:"100%", height: screenheight}}><iframe src="http://www.ssn.edu.in/apps/mun-payment-form/" width="100%" height="100%" style={{marginTop: "3.5em"}} frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></View>
                 </Grid>
-                </ImageBackground>
                 <View
       style={{
         borderBottomColor: 'grey',
@@ -34,7 +29,8 @@ export default class Payment extends Component{
           <br></br>
     </div>
             </View>
-        )
+
+            );
     }
 
 }
