@@ -25,7 +25,7 @@ export default class Allotments extends Component{
             <View style={{ }}>
                 
             <Grid>            
-              <iframe src="https://drive.google.com/embeddedfolderview?id=1FZDUU2STl0-3qykPSeWaUQRCky-ZAOYu#grid" width="100%" height="100%" style={{marginTop: "3.5em", color: "black",border: "thick solid black", marginTop: "5em", height: "500px", background:"url('images/hd2flipped.jpg')"}} frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+              <iframe src="https://drive.google.com/embeddedfolderview?id=1FZDUU2STl0-3qykPSeWaUQRCky-ZAOYu#grid" width="100%" height="100%" style={{marginTop: "3.5em", color: "black",border: "medium solid black", marginTop: "5em", height: "500px", background:"url('images/hd2flipped.jpg')"}} frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
               </Grid>          
               <div><br></br><br></br></div>
                 <View
@@ -48,7 +48,7 @@ export default class Allotments extends Component{
             <View style={{background:"url('images/hd2flipped.jpg')"}}>
               
             <Grid style={{ height: screenheight, color: "black",}}>
-              <div style={{border: "thick solid black", marginTop: "10em", height: "500px", backgroundColor: "#CAC8C5"}}>
+              <div style={{border: "medium solid black", marginTop: "10em", height: "500px", backgroundColor: "#CAC8C5"}}>
               <iframe src="https://drive.google.com/embeddedfolderview?id=1FZDUU2STl0-3qykPSeWaUQRCky-ZAOYu#grid" width="100%" height="100%" style={{marginTop: "3.5em"}} frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></div>
               </Grid>          
                 <View
