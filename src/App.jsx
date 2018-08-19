@@ -19,6 +19,9 @@ import Matrix from './components/matrices';
 import Apply from './components/Applications';
 import IP from './components/com/IP';
 import ESS from './components/com/ESS';
+import Allot from './components/Allotments';
+import Acco from './components/Accommodation';
+
 
 class App extends Component {
 
@@ -37,6 +40,8 @@ class App extends Component {
           <Route path="/com/UNHRC"  component={UNHRC}/>
           <Route path="/com/IP"  component={IP}/>
           <Route path="/com/MSC"  component={MSC}/>
+          <Route path="/Allotments"  component={Allot}/>
+          <Route path="/Accommodation"  component={Acco}/>
           <Route path="/com/ESS"  component={ESS}/>
           <Route path="/ContactUs"  component={ContactUs}/>
           <Route path="/Team"  component={Sec}/>

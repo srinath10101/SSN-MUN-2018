@@ -5,16 +5,16 @@ import {View, Linking, Text, Image} from 'react-native';
 import './CustomNavbar.css'
 
 export default class CustomNavbar extends Component {
-  render() {
-    return (
 
-      <Navbar fixedTop default collapseOnSelect>
+  render() {
+
+      return (
+        <Navbar fixedTop default collapseOnSelect>
         <Navbar.Header>
           <Navbar.Toggle />
-        <Navbar.Text>
+        <Navbar.Text pullRight>
             <b style={{marginLeft: "3em", color: "black", fontFamily: "Arial, Helvetica"}}>SSN MUN 2018</b>
             </Navbar.Text>
-
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
@@ -30,18 +30,25 @@ export default class CustomNavbar extends Component {
             <NavItem eventKey={4} componentClass={Link} href="/Payment" to="/Payment">
               <b>Payment</b>
             </NavItem>
-            <NavItem eventKey={5} componentClass={Link} href="/Team" to="/Team">
+            <NavItem eventKey={5} componentClass={Link} href="/Allotments" to="/Allotments">
+              <b>Allotments</b>
+            </NavItem>
+            <NavItem eventKey={6} componentClass={Link} href="/Accommodation" to="/Accommodation">
+              <b>Accommodation</b>
+            </NavItem>
+            <NavItem eventKey={7} componentClass={Link} href="/Team" to="/Team">
               <b>The Organising Team</b>
             </NavItem>
             {/*<NavItem eventKey={6} componentClass={Link} href="/Sponsors" to="/Sponsors">
               <b>Sponsors</b>
             </NavItem>*/}
-            <NavItem eventKey={6} componentClass={Link} href="/ContactUs" to="/ContactUs">
+            <NavItem eventKey={8} componentClass={Link} href="/ContactUs" to="/ContactUs">
               <b>Contact Us</b>
             </NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    )
+      );
+
   }
 }
