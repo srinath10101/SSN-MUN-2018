@@ -38,7 +38,7 @@ export default class ess extends Component {
                 <p style={{color: "black", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "The Suez Crisis"
                     <h4>
-                    <a href="./images/ESS_BG.pdf" style={{color:"white"}} download>Download Background Guide</a></h4>
+                    <a href="https://drive.google.com/open?id=1YkePteRm362cjDXOZXZHm_s0CEuqhk6w" style={{color:"white"}} >Background Guide</a></h4>
                 </p>
                 <br></br></div>
                 <div className="col-xs-12"><br></br><br></br></div>
@@ -134,7 +134,7 @@ The ESS convenes if the Security Council, because of lack of unanimity of the pe
                 <p style={{color: "black", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "The Suez Crisis"
                     <h4>
-                    <a href="./images/ESS_BG.pdf" style={{color:"white"}} download>Download Background Guide</a></h4>                </p>
+                    <a href="https://drive.google.com/open?id=1YkePteRm362cjDXOZXZHm_s0CEuqhk6w" style={{color:"white"}} >Background Guide</a></h4>                </p>
                 <br></br></div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
 

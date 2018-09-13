@@ -32,7 +32,7 @@ export default class unhrc extends Component {
                 <p style={{color: "white", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "UNHRC Special Session :<br></br> Human Rights situation in occupied Palestinian territory, including east Jerusalem and the Syrian Golan."
                     <h4>
-                    <a href="./images/HRC_BG.pdf" style={{color:"black"}} download>Download Background Guide</a></h4>
+                    <a href="https://drive.google.com/open?id=1up8XxB_wYyd2bdp-xZDK6B9XnI9AOaFD" style={{color:"black"}}>Background Guide</a></h4>
                 </p>
                 <br></br></div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
@@ -120,7 +120,7 @@ borderBottomWidth: 4,
                 <p style={{color: "white", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "UNHRC Special Session :<br></br> Human Rights situation in occupied Palestinian territory, including east Jerusalem and the Syrian Golan."
                     <h4>
-                    <a href="./images/HRC_BG.pdf" style={{color:"black"}} download>Download Background Guide</a></h4>
+                    <a href="https://drive.google.com/open?id=1up8XxB_wYyd2bdp-xZDK6B9XnI9AOaFD" style={{color:"black"}}>Background Guide</a></h4>
                 </p>
                 <br></br></div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>

@@ -29,10 +29,10 @@ export default class disec extends Component {
                 <div className="col-lg-12 col-xs-12"><br></br><br></br></div>
                 <div className="col-lg-6 col-lg-offset-3 col-xs-12" style={{border: "thick solid black", background: "url('../images/com/DISECbgmFlip.png')"}}>
                 <h3 style={{color:"white",textAlign:"center"}} id="heading"><b>AGENDA:</b></h3>
-                <p style={{color: "white", textAlign: "center", fontSize:"20px"}} id="agenda">
+                <p style={{color: "white", textAlign: "center", fontSize:"20https://drive.google.com/open?id=1ZnSsjKHrgPePiqyq6JflPyKoadzMaZHxpx"}} id="agenda">
                     "Tackling the growing threat of nuclear terrorism"
                     <h4>
-                    <a href="./images/DISEC_BG.pdf" style={{color:"black"}} download>Download Background Guide</a></h4>
+                    <a href="https://drive.google.com/open?id=1ZnSsjKHrgPePiqyq6JflPyKoadzMaZHx" style={{color:"black"}}>Background Guide</a></h4>
                 </p>
                 
 
@@ -123,7 +123,7 @@ The UNGA DISEC is one of the six committees being simulated at SSN MUN this year
                 <p style={{color: "white", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "Tackling the growing threat of nuclear terrorism"
                     <h4>
-                    <a href="./images/DISEC_BG.pdf" style={{color:"black"}} download>Download Background Guide</a></h4>
+                    <a href="https://drive.google.com/open?id=1ZnSsjKHrgPePiqyq6JflPyKoadzMaZHx" style={{color:"black"}}>Background Guide</a></h4>
                 </p>
                 <br></br></div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
