@@ -32,6 +32,8 @@ export default class msc extends Component {
             <h3 style={{color:"black",textAlign:"center"}} id="heading"><b>AGENDA:</b></h3>
             <p style={{color: "black", textAlign: "center", fontSize:"20px"}} id="agenda">
                 "The Bear and the Compass Rose : <br></br> Assessing the future of NATO-Russia relations and it's impact on Global Security Strategy."
+                <h4>
+                    <a href="./images/MSC_BG.pdf" style={{color:"white"}} download>Download Background Guide</a></h4>
             </p>
             <br></br></div>
             <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
@@ -124,6 +126,8 @@ borderBottomWidth: 4,
                 <h3 style={{color:"black",textAlign:"center"}} id="heading"><b>AGENDA:</b></h3>
                 <p style={{color: "black", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "The Bear and the Compass Rose : <br></br> Assessing the future of NATO-Russia relations and it's impact on Global Security Strategy."
+                    <h4>
+                    <a href="./images/MSC_BG.pdf" style={{color:"white"}} download>Download Background Guide</a></h4>
                 </p>
                 <br></br></div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>

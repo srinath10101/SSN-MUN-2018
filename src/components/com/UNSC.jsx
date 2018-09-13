@@ -32,6 +32,10 @@ export default class unsc extends Component {
                 <h3 style={{color:"black",textAlign:"center"}} id="heading">AGENDA:</h3>
                 <p style={{color: "black", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "Meeting of the UNSC <br></br>on June 25th, 1948"
+                    <h4>
+                    <a href="./images/UNSC_BG.pdf" style={{color:"blue"}} download>Download Background Guide</a></h4>
+                    <h4>
+                    <a href="./images/UNSC_RG.pdf" style={{color:"blue"}} download>Download Research Guide</a></h4>
                 </p>
                 <br></br></div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
@@ -116,6 +120,10 @@ Displaying diplomacy and decisiveness in times of crisis is the hallmark of a go
                 <h3 style={{color:"black",textAlign:"center"}} id="heading"><b>AGENDA:</b></h3>
                 <p style={{color: "black", textAlign: "center", fontSize:"20px"}} id="agenda">
                     "Meeting of the UNSC on June 25th, 1948"
+                    <h4>
+                    <a href="./images/UNSC_BG.pdf" style={{color:"blue"}} download>Download Background Guide</a></h4>
+                    <h4>
+                    <a href="./images/UNSC_RG.pdf" style={{color:"blue"}} download>Download Research Guide</a></h4>
                 </p>
                 <br></br></div>
                 <div className="col-xs-1 col-lg-12"><br></br><br></br></div>
