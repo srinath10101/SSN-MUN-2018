@@ -45,8 +45,8 @@ class App extends Component {
           <Route path="/com/ESS"  component={ESS}/>
           <Route path="/ContactUs"  component={ContactUs}/>
           <Route path="/Team"  component={Sec}/>
-          <Route path="/Payment"  component={Payment}/>
-          
+          {/* <Route path="/Payment"  component={Payment}/> */}
+          <Route path="/Sponsors"  component={Sponsors}/>
         </div>
         </Router>
       </View>

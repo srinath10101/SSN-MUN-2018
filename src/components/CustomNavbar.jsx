@@ -27,21 +27,21 @@ export default class CustomNavbar extends Component {
             <NavItem eventKey={3} componentClass={Link} href="/apply" to="/apply" >
               <b>Delegate Applications</b>
             </NavItem>
-            <NavItem eventKey={4} componentClass={Link} href="/Payment" to="/Payment">
+            {/* <NavItem eventKey={4} componentClass={Link} href="/Payment" to="/Payment">
               <b>Payment</b>
-            </NavItem>
-            <NavItem eventKey={5} componentClass={Link} href="/Allotments" to="/Allotments">
+            </NavItem> */}
+            <NavItem eventKey={4} componentClass={Link} href="/Allotments" to="/Allotments">
               <b>Allotments</b>
             </NavItem>
-            <NavItem eventKey={6} componentClass={Link} href="/Accommodation" to="/Accommodation">
+            <NavItem eventKey={5} componentClass={Link} href="/Accommodation" to="/Accommodation">
               <b>Accommodation</b>
             </NavItem>
-            <NavItem eventKey={7} componentClass={Link} href="/Team" to="/Team">
+            <NavItem eventKey={6} componentClass={Link} href="/Team" to="/Team">
               <b>The Organising Team</b>
             </NavItem>
-            {/*<NavItem eventKey={6} componentClass={Link} href="/Sponsors" to="/Sponsors">
+            <NavItem eventKey={7} componentClass={Link} href="/Sponsors" to="/Sponsors">
               <b>Sponsors</b>
-            </NavItem>*/}
+            </NavItem>
             <NavItem eventKey={8} componentClass={Link} href="/ContactUs" to="/ContactUs">
               <b>Contact Us</b>
             </NavItem>
